@@ -1,0 +1,802 @@
+[
+    {
+        "question": "The national flag of the country where Yellowstone National Park is located.",
+        "choice": [
+            "A: British Flag",
+            "B: American Flag",
+            "C: Canadian Flag",
+            "D: Mexican Flag"
+        ],
+        "answer": "B",
+        "data": {
+            "image": "Common_Sense_Questions/American_Flag.jpg",
+            "fake_image1": "Common_Sense_Questions/American_Flag_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/American_Flag_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/American_Flag_negative3.jpg"
+        }
+    },
+    {
+        "question": "A famous wrought-iron lattice tower located in the heart of Paris, France.",
+        "choice": [
+            "A: Statue of Liberty",
+            "B: Big Ben",
+            "C: Eiffel Tower",
+            "D: Leaning Tower of Pisa"
+        ],
+        "answer": "C",
+        "data": {
+            "image": "Common_Sense_Questions/Eiffel Tower.jpg",
+            "fake_image1": "Common_Sense_Questions/Eiffel Tower_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Eiffel Tower_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Eiffel Tower_negative3.jpg"
+        }
+    },
+    {
+        "question": "An ancient series of fortifications spanning across northern China.",
+        "choice": [
+            "A: Great Wall of China",
+            "B: Berlin Wall",
+            "C: Hadrian's Wall",
+            "D: Wall of Jericho"
+        ],
+        "answer": "A",
+        "data": {
+            "image": "Common_Sense_Questions/Great Wall of China.jpg",
+            "fake_image1": "Common_Sense_Questions/Great Wall of China_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Great Wall of China_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Great Wall of China_negative3.jpg"
+        }
+    },
+    {
+        "question": "Ancient monumental tombs located in Egypt near the city of Cairo.",
+        "choice": [
+            "A: Colosseum",
+            "B: Stonehenge",
+            "C: Machu Picchu",
+            "D: Pyramids of Giza"
+        ],
+        "answer": "D",
+        "data": {
+            "image": "Common_Sense_Questions/Pyramids of Giza.jpg",
+            "fake_image1": "Common_Sense_Questions/Pyramids of Giza_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Pyramids of Giza_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Pyramids of Giza_negative3.jpg"
+        }
+    },
+    {
+        "question": "A colossal neoclassical sculpture on Liberty Island symbolizing freedom in New York Harbor.",
+        "choice": [
+            "A: Christ the Redeemer",
+            "B: Statue of Liberty",
+            "C: Mount Rushmore",
+            "D: The Thinker"
+        ],
+        "answer": "B",
+        "data": {
+            "image": "Common_Sense_Questions/Statue of Liberty.jpg",
+            "fake_image1": "Common_Sense_Questions/Statue of Liberty_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Statue of Liberty_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Statue of Liberty_negative3.jpg"
+        }
+    },
+    {
+        "question": "The highest mountain above sea level in the world, located in the Himalayas.",
+        "choice": [
+            "A: Mount Everest",
+            "B: K2",
+            "C: Kangchenjunga",
+            "D: Lhotse"
+        ],
+        "answer": "A",
+        "data": {
+            "image": "Common_Sense_Questions/Mount Everest.jpg",
+            "fake_image1": "Common_Sense_Questions/Mount Everest_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Mount Everest_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Mount Everest_negative3.jpg"
+        }
+    },
+    {
+        "question": "The nickname for the Great Bell at the north end of the Palace of Westminster in London.",
+        "choice": [
+            "A: Tower Bridge",
+            "B: Buckingham Palace",
+            "C: Big Ben",
+            "D: The Shard"
+        ],
+        "answer": "C",
+        "data": {
+            "image": "Common_Sense_Questions/Big Ben.jpg",
+            "fake_image1": "Common_Sense_Questions/Big Ben_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Big Ben_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Big Ben_negative3.jpg"
+        }
+    },
+    {
+        "question": "A freestanding bell tower in Italy famous for its unintended tilt.",
+        "choice": [
+            "A: Colosseum",
+            "B: Leaning Tower of Pisa",
+            "C: Pantheon",
+            "D: Florence Cathedral"
+        ],
+        "answer": "B",
+        "data": {
+            "image": "Common_Sense_Questions/Leaning Tower of Pisa.jpg",
+            "fake_image1": "Common_Sense_Questions/Leaning Tower of Pisa_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Leaning Tower of Pisa_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Leaning Tower of Pisa_negative3.jpg"
+        }
+    },
+    {
+        "question": "An ancient amphitheater located in the heart of Rome, Italy.",
+        "choice": [
+            "A: Roman Forum",
+            "B: Pantheon",
+            "C: Trevi Fountain",
+            "D: Colosseum"
+        ],
+        "answer": "D",
+        "data": {
+            "image": "Common_Sense_Questions/Colosseum.jpg",
+            "fake_image1": "Common_Sense_Questions/Colosseum_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Colosseum_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Colosseum_negative3.jpg"
+        }
+    },
+    {
+        "question": "A white marble mausoleum in Agra, India, built by Emperor Shah Jahan in memory of his wife.",
+        "choice": [
+            "A: Taj Mahal",
+            "B: Red Fort",
+            "C: Qutub Minar",
+            "D: Hawa Mahal"
+        ],
+        "answer": "A",
+        "data": {
+            "image": "Common_Sense_Questions/Taj Mahal.jpg",
+            "fake_image1": "Common_Sense_Questions/Taj Mahal_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Taj Mahal_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Taj Mahal_negative3.jpg"
+        }
+    },
+    {
+        "question": "A large land animal with a long trunk and tusks, native to Africa.",
+        "choice": [
+            "A: African Elephant",
+            "B: Asian Elephant",
+            "C: White Rhinoceros",
+            "D: Hippopotamus"
+        ],
+        "answer": "A",
+        "data": {
+            "image": "Common_Sense_Questions/African Elephant.jpg",
+            "fake_image1": "Common_Sense_Questions/African Elephant_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/African Elephant_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/African Elephant_negative3.jpg"
+        }
+    },
+    {
+        "question": "A bear native to China known for its distinctive black and white fur and bamboo diet.",
+        "choice": [
+            "A: Polar Bear",
+            "B: Black Bear",
+            "C: Giant Panda",
+            "D: Sun Bear"
+        ],
+        "answer": "C",
+        "data": {
+            "image": "Common_Sense_Questions/Giant Panda.jpg",
+            "fake_image1": "Common_Sense_Questions/Giant Panda_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Giant Panda_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Giant Panda_negative3.jpg"
+        }
+    },
+    {
+        "question": "A large feline with an orange coat and distinctive black stripes, found in Asia.",
+        "choice": [
+            "A: Lion",
+            "B: Bengal Tiger",
+            "C: Leopard",
+            "D: Cheetah"
+        ],
+        "answer": "B",
+        "data": {
+            "image": "Common_Sense_Questions/Bengal Tiger.jpg",
+            "fake_image1": "Common_Sense_Questions/Bengal Tiger_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Bengal Tiger_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Bengal Tiger_negative3.jpg"
+        }
+    },
+    {
+        "question": "The largest animal on Earth, inhabiting the world's oceans.",
+        "choice": [
+            "A: Great White Shark",
+            "B: Blue Whale",
+            "C: Giant Squid",
+            "D: Orca"
+        ],
+        "answer": "B",
+        "data": {
+            "image": "Common_Sense_Questions/Blue Whale.jpg",
+            "fake_image1": "Common_Sense_Questions/Blue Whale_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Blue Whale_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Blue Whale_negative3.jpg"
+        }
+    },
+    {
+        "question": "A flightless bird native to Antarctica, known for its formal black and white 'tuxedo' appearance.",
+        "choice": [
+            "A: Emperor Penguin",
+            "B: King Penguin",
+            "C: Adélie Penguin",
+            "D: Gentoo Penguin"
+        ],
+        "answer": "A",
+        "data": {
+            "image": "Common_Sense_Questions/Emperor Penguin.jpg",
+            "fake_image1": "Common_Sense_Questions/Emperor Penguin_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Emperor Penguin_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Emperor Penguin_negative3.jpg"
+        }
+    },
+    {
+        "question": "A bird of prey with a white head, recognized as a symbol of the United States.",
+        "choice": [
+            "A: Golden Eagle",
+            "B: Bald Eagle",
+            "C: Peregrine Falcon",
+            "D: Red-tailed Hawk"
+        ],
+        "answer": "B",
+        "data": {
+            "image": "Common_Sense_Questions/Bald Eagle.jpg",
+            "fake_image1": "Common_Sense_Questions/Bald Eagle_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Bald Eagle_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Bald Eagle_negative3.jpg"
+        }
+    },
+    {
+        "question": "A highly venomous snake known for its hood, native to parts of Asia.",
+        "choice": [
+            "A: King Cobra",
+            "B: Rattlesnake",
+            "C: Python",
+            "D: Boa Constrictor"
+        ],
+        "answer": "A",
+        "data": {
+            "image": "Common_Sense_Questions/King Cobra.jpg",
+            "fake_image1": "Common_Sense_Questions/King Cobra_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/King Cobra_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/King Cobra_negative3.jpg"
+        }
+    },
+    {
+        "question": "Often called the 'king of the jungle', this large feline is native to Africa.",
+        "choice": [
+            "A: Tiger",
+            "B: Cheetah",
+            "C: Leopard",
+            "D: African Lion"
+        ],
+        "answer": "D",
+        "data": {
+            "image": "Common_Sense_Questions/African Lion.jpg",
+            "fake_image1": "Common_Sense_Questions/African Lion_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/African Lion_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/African Lion_negative3.jpg"
+        }
+    },
+    {
+        "question": "A marsupial known for its powerful hind legs and ability to hop, native to Australia.",
+        "choice": [
+            "A: Koala",
+            "B: Red Kangaroo",
+            "C: Wallaby",
+            "D: Wombat"
+        ],
+        "answer": "B",
+        "data": {
+            "image": "Common_Sense_Questions/Red Kangaroo.jpg",
+            "fake_image1": "Common_Sense_Questions/Red Kangaroo_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Red Kangaroo_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Red Kangaroo_negative3.jpg"
+        }
+    },
+    {
+        "question": "A giant tortoise species native to the Galápagos Islands, famous for its longevity.",
+        "choice": [
+            "A: Aldabra Giant Tortoise",
+            "B: Galápagos Giant Tortoise",
+            "C: Gopher Tortoise",
+            "D: Leopard Tortoise"
+        ],
+        "answer": "B",
+        "data": {
+            "image": "Common_Sense_Questions/Galápagos Giant Tortoise.jpg",
+            "fake_image1": "Common_Sense_Questions/Galápagos Giant Tortoise_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Galápagos Giant Tortoise_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Galápagos Giant Tortoise_negative3.jpg"
+        }
+    },
+    {
+        "question": "A large deciduous tree known for its strong wood and production of acorns.",
+        "choice": [
+            "A: Pine",
+            "B: Birch",
+            "C: Oak Tree",
+            "D: Maple"
+        ],
+        "answer": "C",
+        "data": {
+            "image": "Common_Sense_Questions/Oak Tree.jpg",
+            "fake_image1": "Common_Sense_Questions/Oak Tree_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Oak Tree_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Oak Tree_negative3.jpg"
+        }
+    },
+    {
+        "question": "A popular fragrant flower often given as a gift, symbolizing love and beauty.",
+        "choice": [
+            "A: Rose",
+            "B: Tulip",
+            "C: Orchid",
+            "D: Daisy"
+        ],
+        "answer": "A",
+        "data": {
+            "image": "Common_Sense_Questions/Rose.jpg",
+            "fake_image1": "Common_Sense_Questions/Rose_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Rose_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Rose_negative3.jpg"
+        }
+    },
+    {
+        "question": "A tall, fast-growing grass used in construction and as a renewable resource in Asia.",
+        "choice": [
+            "A: Bamboo",
+            "B: Wheat",
+            "C: Sugarcane",
+            "D: Corn"
+        ],
+        "answer": "A",
+        "data": {
+            "image": "Common_Sense_Questions/Bamboo.jpg",
+            "fake_image1": "Common_Sense_Questions/Bamboo_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Bamboo_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Bamboo_negative3.jpg"
+        }
+    },
+    {
+        "question": "A bright yellow flower that famously turns to follow the sun.",
+        "choice": [
+            "A: Sunflower",
+            "B: Daffodil",
+            "C: Marigold",
+            "D: Chrysanthemum"
+        ],
+        "answer": "A",
+        "data": {
+            "image": "Common_Sense_Questions/Sunflower.jpg",
+            "fake_image1": "Common_Sense_Questions/Sunflower_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Sunflower_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Sunflower_negative3.jpg"
+        }
+    },
+    {
+        "question": "A carnivorous plant known for its rapid closing leaves that trap unsuspecting insects.",
+        "choice": [
+            "A: Venus Flytrap",
+            "B: Pitcher Plant",
+            "C: Sundew",
+            "D: Cobra Lily"
+        ],
+        "answer": "A",
+        "data": {
+            "image": "Common_Sense_Questions/Venus Flytrap.jpg",
+            "fake_image1": "Common_Sense_Questions/Venus Flytrap_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Venus Flytrap_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Venus Flytrap_negative3.jpg"
+        }
+    },
+    {
+        "question": "A large, spiky cactus native to North American deserts, often called the 'king of cacti'.",
+        "choice": [
+            "A: Saguaro Cactus",
+            "B: Prickly Pear",
+            "C: Barrel Cactus",
+            "D: Cholla"
+        ],
+        "answer": "A",
+        "data": {
+            "image": "Common_Sense_Questions/Saguaro Cactus.jpg",
+            "fake_image1": "Common_Sense_Questions/Saguaro Cactus_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Saguaro Cactus_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Saguaro Cactus_negative3.jpg"
+        }
+    },
+    {
+        "question": "A bulbous plant famous for its vibrant, cup-shaped blooms in spring.",
+        "choice": [
+            "A: Tulip",
+            "B: Daffodil",
+            "C: Crocus",
+            "D: Hyacinth"
+        ],
+        "answer": "A",
+        "data": {
+            "image": "Common_Sense_Questions/Tulip.jpg",
+            "fake_image1": "Common_Sense_Questions/Tulip_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Tulip_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Tulip_negative3.jpg"
+        }
+    },
+    {
+        "question": "A tree celebrated in Japan for its fleeting, delicate pink blossoms each spring.",
+        "choice": [
+            "A: Cherry Blossom",
+            "B: Magnolia",
+            "C: Dogwood",
+            "D: Wisteria"
+        ],
+        "answer": "A",
+        "data": {
+            "image": "Common_Sense_Questions/Cherry Blossom.jpg",
+            "fake_image1": "Common_Sense_Questions/Cherry Blossom_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Cherry Blossom_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Cherry Blossom_negative3.jpg"
+        }
+    },
+    {
+        "question": "A massive, long-lived tree native to Africa, often called the 'tree of life'.",
+        "choice": [
+            "A: Sequoia",
+            "B: Baobab Tree",
+            "C: Redwood",
+            "D: Banyan"
+        ],
+        "answer": "B",
+        "data": {
+            "image": "Common_Sense_Questions/Baobab Tree.jpg",
+            "fake_image1": "Common_Sense_Questions/Baobab Tree_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Baobab Tree_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Baobab Tree_negative3.jpg"
+        }
+    },
+    {
+        "question": "An aquatic plant with large, round leaves often seen floating in ponds.",
+        "choice": [
+            "A: Lotus",
+            "B: Water Lily",
+            "C: Duckweed",
+            "D: Papyrus"
+        ],
+        "answer": "B",
+        "data": {
+            "image": "Common_Sense_Questions/Water Lily.jpg",
+            "fake_image1": "Common_Sense_Questions/Water Lily_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Water Lily_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Water Lily_negative3.jpg"
+        }
+    },
+    {
+        "question": "A handheld device that has become a symbol of modern communication and computing.",
+        "choice": [
+            "A: Smartphone",
+            "B: Tablet",
+            "C: Laptop",
+            "D: Desktop Computer"
+        ],
+        "answer": "A",
+        "data": {
+            "image": "Common_Sense_Questions/Smartphone.jpg",
+            "fake_image1": "Common_Sense_Questions/Smartphone_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Smartphone_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Smartphone_negative3.jpg"
+        }
+    },
+    {
+        "question": "A portable computer that opens like a book and is widely used for work and entertainment.",
+        "choice": [
+            "A: Smartphone",
+            "B: Tablet",
+            "C: Laptop",
+            "D: Desktop Computer"
+        ],
+        "answer": "C",
+        "data": {
+            "image": "Common_Sense_Questions/Laptop.jpg",
+            "fake_image1": "Common_Sense_Questions/Laptop_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Laptop_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Laptop_negative3.jpg"
+        }
+    },
+    {
+        "question": "A four-wheeled vehicle that has become essential for modern transportation.",
+        "choice": [
+            "A: Bicycle",
+            "B: Car",
+            "C: Motorcycle",
+            "D: Bus"
+        ],
+        "answer": "B",
+        "data": {
+            "image": "Common_Sense_Questions/Car.jpg",
+            "fake_image1": "Common_Sense_Questions/Car_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Car_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Car_negative3.jpg"
+        }
+    },
+    {
+        "question": "An instrument that measures time and is often found on walls or worn on wrists.",
+        "choice": [
+            "A: Clock",
+            "B: Calendar",
+            "C: Stopwatch",
+            "D: Hourglass"
+        ],
+        "answer": "A",
+        "data": {
+            "image": "Common_Sense_Questions/Clock.jpg",
+            "fake_image1": "Common_Sense_Questions/Clock_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Clock_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Clock_negative3.jpg"
+        }
+    },
+    {
+        "question": "A powered flying vehicle that revolutionized travel in the 20th century.",
+        "choice": [
+            "A: Helicopter",
+            "B: Airplane",
+            "C: Glider",
+            "D: Hot Air Balloon"
+        ],
+        "answer": "B",
+        "data": {
+            "image": "Common_Sense_Questions/Airplane.jpg",
+            "fake_image1": "Common_Sense_Questions/Airplane_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Airplane_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Airplane_negative3.jpg"
+        }
+    },
+    {
+        "question": "A two-wheeled vehicle powered by pedaling, popular for exercise and commuting.",
+        "choice": [
+            "A: Car",
+            "B: Motorcycle",
+            "C: Bicycle",
+            "D: Scooter"
+        ],
+        "answer": "C",
+        "data": {
+            "image": "Common_Sense_Questions/Bicycle.jpg",
+            "fake_image1": "Common_Sense_Questions/Bicycle_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Bicycle_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Bicycle_negative3.jpg"
+        }
+    },
+    {
+        "question": "A device used to capture photographs, essential in both art and journalism.",
+        "choice": [
+            "A: Smartphone",
+            "B: Camera",
+            "C: Telescope",
+            "D: Microphone"
+        ],
+        "answer": "B",
+        "data": {
+            "image": "Common_Sense_Questions/Camera.jpg",
+            "fake_image1": "Common_Sense_Questions/Camera_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Camera_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Camera_negative3.jpg"
+        }
+    },
+    {
+        "question": "A device that produces light through an incandescent filament, a major invention of the 19th century.",
+        "choice": [
+            "A: Light Bulb",
+            "B: Candle",
+            "C: Torch",
+            "D: Lantern"
+        ],
+        "answer": "A",
+        "data": {
+            "image": "Common_Sense_Questions/Light Bulb.jpg",
+            "fake_image1": "Common_Sense_Questions/Light Bulb_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Light Bulb_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Light Bulb_negative3.jpg"
+        }
+    },
+    {
+        "question": "A kitchen appliance that uses microwave radiation to quickly heat and cook food.",
+        "choice": [
+            "A: Oven",
+            "B: Refrigerator",
+            "C: Microwave",
+            "D: Toaster"
+        ],
+        "answer": "C",
+        "data": {
+            "image": "Common_Sense_Questions/Microwave.jpg",
+            "fake_image1": "Common_Sense_Questions/Microwave_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Microwave_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Microwave_negative3.jpg"
+        }
+    },
+    {
+        "question": "A stringed musical instrument commonly used in rock and pop music, played by strumming.",
+        "choice": [
+            "A: Piano",
+            "B: Violin",
+            "C: Drum",
+            "D: Guitar"
+        ],
+        "answer": "D",
+        "data": {
+            "image": "Common_Sense_Questions/Guitar.jpg",
+            "fake_image1": "Common_Sense_Questions/Guitar_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Guitar_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Guitar_negative3.jpg"
+        }
+    },
+    {
+        "question": "An electronic device used to display video content and broadcast programs.",
+        "choice": [
+            "A: Television",
+            "B: Radio",
+            "C: Computer",
+            "D: Smartphone"
+        ],
+        "answer": "A",
+        "data": {
+            "image": "Common_Sense_Questions/Television.jpg",
+            "fake_image1": "Common_Sense_Questions/Television_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Television_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Television_negative3.jpg"
+        }
+    },
+    {
+        "question": "An appliance used to keep food and beverages cold.",
+        "choice": [
+            "A: Refrigerator",
+            "B: Oven",
+            "C: Microwave",
+            "D: Toaster"
+        ],
+        "answer": "A",
+        "data": {
+            "image": "Common_Sense_Questions/Refrigerator.jpg",
+            "fake_image1": "Common_Sense_Questions/Refrigerator_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Refrigerator_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Refrigerator_negative3.jpg"
+        }
+    },
+    {
+        "question": "An appliance used for cleaning clothes by agitation and water.",
+        "choice": [
+            "A: Washing Machine",
+            "B: Dryer",
+            "C: Dishwasher",
+            "D: Oven"
+        ],
+        "answer": "A",
+        "data": {
+            "image": "Common_Sense_Questions/Refrigerator.jpg",
+            "fake_image1": "Common_Sense_Questions/Refrigerator_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Refrigerator_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Refrigerator_negative3.jpg"
+        }
+    },
+    {
+        "question": "An electric device that uses suction to remove debris from floors.",
+        "choice": [
+            "A: Vacuum Cleaner",
+            "B: Broom",
+            "C: Mop",
+            "D: Duster"
+        ],
+        "answer": "A",
+        "data": {
+            "image": "Common_Sense_Questions/Vacuum Cleaner.jpg",
+            "fake_image1": "Common_Sense_Questions/Vacuum Cleaner_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Vacuum Cleaner_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Vacuum Cleaner_negative3.jpg"
+        }
+    },
+    {
+        "question": "An electronic device that produces physical copies of documents and images.",
+        "choice": [
+            "A: Printer",
+            "B: Scanner",
+            "C: Copier",
+            "D: Fax Machine"
+        ],
+        "answer": "A",
+        "data": {
+            "image": "Common_Sense_Questions/Printer.jpg",
+            "fake_image1": "Common_Sense_Questions/Printer_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Printer_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Printer_negative3.jpg"
+        }
+    },
+    {
+        "question": "A pair of small speakers worn on the head for listening to audio.",
+        "choice": [
+            "A: Headphones",
+            "B: Earbuds",
+            "C: Speakers",
+            "D: Microphone"
+        ],
+        "answer": "A",
+        "data": {
+            "image": "Common_Sense_Questions/Headphones.jpg",
+            "fake_image1": "Common_Sense_Questions/Headphones_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Headphones_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Headphones_negative3.jpg"
+        }
+    },
+    {
+        "question": "An input device used to type text into a computer.",
+        "choice": [
+            "A: Keyboard",
+            "B: Mouse",
+            "C: Trackpad",
+            "D: Joystick"
+        ],
+        "answer": "A",
+        "data": {
+            "image": "Common_Sense_Questions/Keyboard.jpg",
+            "fake_image1": "Common_Sense_Questions/Keyboard_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Keyboard_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Keyboard_negative3.jpg"
+        }
+    },
+    {
+        "question": "A handheld input device used to control a cursor on a computer screen.",
+        "choice": [
+            "A: Mouse",
+            "B: Keyboard",
+            "C: Touchpad",
+            "D: Stylus"
+        ],
+        "answer": "A",
+        "data": {
+            "image": "Common_Sense_Questions/Mouse.jpg",
+            "fake_image1": "Common_Sense_Questions/Mouse_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Mouse_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Mouse_negative3.jpg"
+        }
+    },
+    {
+        "question": "A set of written, printed, or blank pages fastened together, usually bound in a cover.",
+        "choice": [
+            "A: Book",
+            "B: Magazine",
+            "C: Newspaper",
+            "D: Journal"
+        ],
+        "answer": "A",
+        "data": {
+            "image": "Common_Sense_Questions/Book.jpg",
+            "fake_image1": "Common_Sense_Questions/Book_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Book_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Book_negative3.jpg"
+        }
+    },
+    {
+        "question": "A common writing instrument used to apply ink to paper.",
+        "choice": [
+            "A: Pen",
+            "B: Pencil",
+            "C: Marker",
+            "D: Crayon"
+        ],
+        "answer": "A",
+        "data": {
+            "image": "Common_Sense_Questions/Pen.jpg",
+            "fake_image1": "Common_Sense_Questions/Pen_negative1.jpg",
+            "fake_image2": "Common_Sense_Questions/Pen_negative2.jpg",
+            "fake_image3": "Common_Sense_Questions/Pen_negative3.jpg"
+        }
+    }
+]

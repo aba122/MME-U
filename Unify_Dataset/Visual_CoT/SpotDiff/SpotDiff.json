@@ -1,0 +1,2312 @@
+[
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 16",
+            "B: 18",
+            "C: 20",
+            "D: 12"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/783150.png",
+            "image_b": "CoT/SpotDiff/180212.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 16",
+            "B: 6",
+            "C: 11",
+            "D: 22"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/876944.png",
+            "image_b": "CoT/SpotDiff/353402.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 8",
+            "B: 12",
+            "C: 22",
+            "D: 16"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/930812.png",
+            "image_b": "CoT/SpotDiff/346347.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 12",
+            "B: 17",
+            "C: 16",
+            "D: 7"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/580615.png",
+            "image_b": "CoT/SpotDiff/949779.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 23",
+            "B: 16",
+            "C: 6",
+            "D: 15"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/752410.png",
+            "image_b": "CoT/SpotDiff/477625.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 20",
+            "B: 16",
+            "C: 15",
+            "D: 13"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/858178.png",
+            "image_b": "CoT/SpotDiff/661227.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 26",
+            "B: 13",
+            "C: 18",
+            "D: 20"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/762710.png",
+            "image_b": "CoT/SpotDiff/934013.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 17",
+            "B: 16",
+            "C: 15",
+            "D: 18"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/457396.png",
+            "image_b": "CoT/SpotDiff/527671.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 23",
+            "B: 21",
+            "C: 5",
+            "D: 15"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/302249.png",
+            "image_b": "CoT/SpotDiff/318142.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 16",
+            "B: 23",
+            "C: 21",
+            "D: 24"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/152460.png",
+            "image_b": "CoT/SpotDiff/294449.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 15",
+            "B: 9",
+            "C: 24",
+            "D: 6"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/674533.png",
+            "image_b": "CoT/SpotDiff/439408.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 17",
+            "B: 21",
+            "C: 11",
+            "D: 22"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/290220.png",
+            "image_b": "CoT/SpotDiff/580931.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 7",
+            "B: 14",
+            "C: 17",
+            "D: 12"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/457425.png",
+            "image_b": "CoT/SpotDiff/744945.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 15",
+            "B: 14",
+            "C: 22",
+            "D: 6"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/891419.png",
+            "image_b": "CoT/SpotDiff/370762.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 24",
+            "B: 21",
+            "C: 16",
+            "D: 17"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/465508.png",
+            "image_b": "CoT/SpotDiff/692487.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 16",
+            "B: 14",
+            "C: 25",
+            "D: 12"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/786029.png",
+            "image_b": "CoT/SpotDiff/355160.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 16",
+            "B: 20",
+            "C: 11",
+            "D: 17"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/243332.png",
+            "image_b": "CoT/SpotDiff/324999.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 21",
+            "B: 18",
+            "C: 20",
+            "D: 17"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/372244.png",
+            "image_b": "CoT/SpotDiff/492506.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 24",
+            "B: 11",
+            "C: 25",
+            "D: 16"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/564619.png",
+            "image_b": "CoT/SpotDiff/557244.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 6",
+            "B: 15",
+            "C: 16",
+            "D: 13"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/810102.png",
+            "image_b": "CoT/SpotDiff/574783.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 12",
+            "B: 15",
+            "C: 21",
+            "D: 25"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/172881.png",
+            "image_b": "CoT/SpotDiff/984382.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 16",
+            "B: 6",
+            "C: 26",
+            "D: 25"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/296329.png",
+            "image_b": "CoT/SpotDiff/352541.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 8",
+            "B: 15",
+            "C: 22",
+            "D: 16"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/220484.png",
+            "image_b": "CoT/SpotDiff/494441.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 9",
+            "B: 25",
+            "C: 16",
+            "D: 13"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/794797.png",
+            "image_b": "CoT/SpotDiff/811453.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 15",
+            "B: 21",
+            "C: 7",
+            "D: 12"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/755325.png",
+            "image_b": "CoT/SpotDiff/187123.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 16",
+            "B: 20",
+            "C: 7",
+            "D: 15"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/784930.png",
+            "image_b": "CoT/SpotDiff/170159.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 11",
+            "B: 9",
+            "C: 7",
+            "D: 16"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/729432.png",
+            "image_b": "CoT/SpotDiff/990485.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 8",
+            "B: 15",
+            "C: 16",
+            "D: 12"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/742213.png",
+            "image_b": "CoT/SpotDiff/648373.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 8",
+            "B: 17",
+            "C: 15",
+            "D: 22"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/941200.png",
+            "image_b": "CoT/SpotDiff/466200.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 15",
+            "B: 8",
+            "C: 5",
+            "D: 21"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/574152.png",
+            "image_b": "CoT/SpotDiff/975938.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 17",
+            "B: 5",
+            "C: 20",
+            "D: 15"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/833699.png",
+            "image_b": "CoT/SpotDiff/915715.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 21",
+            "B: 15",
+            "C: 14",
+            "D: 17"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/869100.png",
+            "image_b": "CoT/SpotDiff/953397.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 17",
+            "B: 24",
+            "C: 27",
+            "D: 12"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/395919.png",
+            "image_b": "CoT/SpotDiff/825912.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 7",
+            "B: 25",
+            "C: 15",
+            "D: 24"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/119729.png",
+            "image_b": "CoT/SpotDiff/956650.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 18",
+            "B: 24",
+            "C: 13",
+            "D: 17"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/306506.png",
+            "image_b": "CoT/SpotDiff/851112.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 21",
+            "B: 16",
+            "C: 22",
+            "D: 17"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/868112.png",
+            "image_b": "CoT/SpotDiff/346422.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 18",
+            "B: 24",
+            "C: 21",
+            "D: 16"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/304872.png",
+            "image_b": "CoT/SpotDiff/551535.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 16",
+            "B: 15",
+            "C: 11",
+            "D: 10"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/904909.png",
+            "image_b": "CoT/SpotDiff/859158.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 15",
+            "B: 18",
+            "C: 10",
+            "D: 7"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/468436.png",
+            "image_b": "CoT/SpotDiff/904245.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 16",
+            "B: 11",
+            "C: 22",
+            "D: 15"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/323586.png",
+            "image_b": "CoT/SpotDiff/440005.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 6",
+            "B: 12",
+            "C: 10",
+            "D: 15"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/351273.png",
+            "image_b": "CoT/SpotDiff/955420.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 25",
+            "B: 16",
+            "C: 15",
+            "D: 19"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/904379.png",
+            "image_b": "CoT/SpotDiff/199368.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 7",
+            "B: 15",
+            "C: 9",
+            "D: 21"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/493487.png",
+            "image_b": "CoT/SpotDiff/920789.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 26",
+            "B: 16",
+            "C: 17",
+            "D: 6"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/594342.png",
+            "image_b": "CoT/SpotDiff/804397.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 15",
+            "B: 19",
+            "C: 18",
+            "D: 24"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/930812.png",
+            "image_b": "CoT/SpotDiff/296621.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 21",
+            "B: 25",
+            "C: 15",
+            "D: 6"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/176304.png",
+            "image_b": "CoT/SpotDiff/148244.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 7",
+            "B: 16",
+            "C: 10",
+            "D: 22"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/513926.png",
+            "image_b": "CoT/SpotDiff/254942.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 19",
+            "B: 18",
+            "C: 13",
+            "D: 14"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/434978.png",
+            "image_b": "CoT/SpotDiff/436466.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 15",
+            "B: 12",
+            "C: 19",
+            "D: 7"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/410628.png",
+            "image_b": "CoT/SpotDiff/217549.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 8",
+            "B: 15",
+            "C: 11",
+            "D: 13"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/424412.png",
+            "image_b": "CoT/SpotDiff/932620.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 16",
+            "B: 12",
+            "C: 14",
+            "D: 20"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/512719.png",
+            "image_b": "CoT/SpotDiff/302233.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 6",
+            "B: 22",
+            "C: 16",
+            "D: 9"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/386673.png",
+            "image_b": "CoT/SpotDiff/585579.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 5",
+            "B: 23",
+            "C: 15",
+            "D: 7"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/727202.png",
+            "image_b": "CoT/SpotDiff/970373.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 14",
+            "B: 15",
+            "C: 7",
+            "D: 24"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/775661.png",
+            "image_b": "CoT/SpotDiff/208928.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 15",
+            "B: 22",
+            "C: 24",
+            "D: 10"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/175211.png",
+            "image_b": "CoT/SpotDiff/670817.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 7",
+            "B: 6",
+            "C: 5",
+            "D: 15"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/652623.png",
+            "image_b": "CoT/SpotDiff/420173.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 23",
+            "B: 15",
+            "C: 22",
+            "D: 5"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/370849.png",
+            "image_b": "CoT/SpotDiff/843381.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 15",
+            "B: 19",
+            "C: 21",
+            "D: 25"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/763360.png",
+            "image_b": "CoT/SpotDiff/795785.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 15",
+            "B: 6",
+            "C: 17",
+            "D: 19"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/707813.png",
+            "image_b": "CoT/SpotDiff/840513.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 16",
+            "B: 24",
+            "C: 7",
+            "D: 26"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/969863.png",
+            "image_b": "CoT/SpotDiff/585527.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 16",
+            "B: 22",
+            "C: 26",
+            "D: 25"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/296029.png",
+            "image_b": "CoT/SpotDiff/596445.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 21",
+            "B: 22",
+            "C: 16",
+            "D: 15"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/227478.png",
+            "image_b": "CoT/SpotDiff/145708.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 8",
+            "B: 12",
+            "C: 15",
+            "D: 23"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/333063.png",
+            "image_b": "CoT/SpotDiff/549074.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 17",
+            "B: 12",
+            "C: 24",
+            "D: 15"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/898700.png",
+            "image_b": "CoT/SpotDiff/272376.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 15",
+            "B: 23",
+            "C: 24",
+            "D: 22"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/385934.png",
+            "image_b": "CoT/SpotDiff/835349.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 15",
+            "B: 16",
+            "C: 19",
+            "D: 6"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/168599.png",
+            "image_b": "CoT/SpotDiff/962632.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 13",
+            "B: 22",
+            "C: 16",
+            "D: 26"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/119845.png",
+            "image_b": "CoT/SpotDiff/750282.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 9",
+            "B: 16",
+            "C: 22",
+            "D: 10"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/177512.png",
+            "image_b": "CoT/SpotDiff/830103.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 18",
+            "B: 21",
+            "C: 15",
+            "D: 22"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/268413.png",
+            "image_b": "CoT/SpotDiff/731039.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 11",
+            "B: 15",
+            "C: 24",
+            "D: 9"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/111570.png",
+            "image_b": "CoT/SpotDiff/141739.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 15",
+            "B: 12",
+            "C: 20",
+            "D: 10"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/102684.png",
+            "image_b": "CoT/SpotDiff/979584.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 12",
+            "B: 18",
+            "C: 15",
+            "D: 16"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/941041.png",
+            "image_b": "CoT/SpotDiff/166905.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 7",
+            "B: 10",
+            "C: 13",
+            "D: 16"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/525372.png",
+            "image_b": "CoT/SpotDiff/555117.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 21",
+            "B: 13",
+            "C: 15",
+            "D: 10"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/832086.png",
+            "image_b": "CoT/SpotDiff/319995.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 23",
+            "B: 18",
+            "C: 15",
+            "D: 7"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/573004.png",
+            "image_b": "CoT/SpotDiff/872448.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 16",
+            "B: 18",
+            "C: 15",
+            "D: 24"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/411266.png",
+            "image_b": "CoT/SpotDiff/178242.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 11",
+            "B: 16",
+            "C: 15",
+            "D: 6"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/962335.png",
+            "image_b": "CoT/SpotDiff/961347.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 21",
+            "B: 14",
+            "C: 16",
+            "D: 22"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/516184.png",
+            "image_b": "CoT/SpotDiff/808286.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 12",
+            "B: 10",
+            "C: 15",
+            "D: 20"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/988101.png",
+            "image_b": "CoT/SpotDiff/713859.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 25",
+            "B: 5",
+            "C: 15",
+            "D: 24"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/239167.png",
+            "image_b": "CoT/SpotDiff/630243.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 17",
+            "B: 14",
+            "C: 23",
+            "D: 15"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/745565.png",
+            "image_b": "CoT/SpotDiff/210520.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 23",
+            "B: 17",
+            "C: 16",
+            "D: 13"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/426789.png",
+            "image_b": "CoT/SpotDiff/449296.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 20",
+            "B: 7",
+            "C: 11",
+            "D: 16"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/804850.png",
+            "image_b": "CoT/SpotDiff/947999.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 14",
+            "B: 23",
+            "C: 15",
+            "D: 16"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/459330.png",
+            "image_b": "CoT/SpotDiff/787416.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 15",
+            "B: 5",
+            "C: 8",
+            "D: 19"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/428968.png",
+            "image_b": "CoT/SpotDiff/464181.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 7",
+            "B: 8",
+            "C: 15",
+            "D: 10"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/656265.png",
+            "image_b": "CoT/SpotDiff/824494.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 5",
+            "B: 10",
+            "C: 24",
+            "D: 15"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/733255.png",
+            "image_b": "CoT/SpotDiff/102657.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 14",
+            "B: 23",
+            "C: 25",
+            "D: 15"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/223063.png",
+            "image_b": "CoT/SpotDiff/148588.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 13",
+            "B: 24",
+            "C: 16",
+            "D: 14"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/395029.png",
+            "image_b": "CoT/SpotDiff/522491.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 16",
+            "B: 14",
+            "C: 23",
+            "D: 15"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/627336.png",
+            "image_b": "CoT/SpotDiff/676259.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 19",
+            "B: 24",
+            "C: 5",
+            "D: 15"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/899932.png",
+            "image_b": "CoT/SpotDiff/522564.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 25",
+            "B: 14",
+            "C: 15",
+            "D: 16"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/599089.png",
+            "image_b": "CoT/SpotDiff/370867.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 5",
+            "B: 17",
+            "C: 14",
+            "D: 15"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/221151.png",
+            "image_b": "CoT/SpotDiff/811882.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 16",
+            "B: 21",
+            "C: 24",
+            "D: 20"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/142199.png",
+            "image_b": "CoT/SpotDiff/613916.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 13",
+            "B: 16",
+            "C: 25",
+            "D: 14"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/227189.png",
+            "image_b": "CoT/SpotDiff/544052.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 24",
+            "B: 7",
+            "C: 16",
+            "D: 15"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/735041.png",
+            "image_b": "CoT/SpotDiff/527634.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 11",
+            "B: 16",
+            "C: 14",
+            "D: 25"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/125124.png",
+            "image_b": "CoT/SpotDiff/784399.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 25",
+            "B: 20",
+            "C: 23",
+            "D: 16"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/568993.png",
+            "image_b": "CoT/SpotDiff/753389.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 16",
+            "B: 26",
+            "C: 22",
+            "D: 13"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/908306.png",
+            "image_b": "CoT/SpotDiff/906931.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 11",
+            "B: 7",
+            "C: 16",
+            "D: 15"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/180611.png",
+            "image_b": "CoT/SpotDiff/975476.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 15",
+            "B: 6",
+            "C: 13",
+            "D: 14"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/999934.png",
+            "image_b": "CoT/SpotDiff/120157.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 25",
+            "B: 23",
+            "C: 15",
+            "D: 13"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/880373.png",
+            "image_b": "CoT/SpotDiff/136141.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 22",
+            "B: 14",
+            "C: 5",
+            "D: 15"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/300062.png",
+            "image_b": "CoT/SpotDiff/774543.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 5",
+            "B: 20",
+            "C: 14",
+            "D: 6"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/794358.png",
+            "image_b": "CoT/SpotDiff/983064.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 19",
+            "B: 24",
+            "C: 15",
+            "D: 14"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/917761.png",
+            "image_b": "CoT/SpotDiff/616334.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 11",
+            "B: 13",
+            "C: 24",
+            "D: 14"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/404561.png",
+            "image_b": "CoT/SpotDiff/286121.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 23",
+            "B: 15",
+            "C: 6",
+            "D: 11"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/438774.png",
+            "image_b": "CoT/SpotDiff/921683.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 15",
+            "B: 13",
+            "C: 14",
+            "D: 22"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/446898.png",
+            "image_b": "CoT/SpotDiff/353677.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 14",
+            "B: 10",
+            "C: 13",
+            "D: 16"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/545249.png",
+            "image_b": "CoT/SpotDiff/725744.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 19",
+            "B: 14",
+            "C: 9",
+            "D: 13"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/325363.png",
+            "image_b": "CoT/SpotDiff/820867.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 18",
+            "B: 20",
+            "C: 11",
+            "D: 15"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/147902.png",
+            "image_b": "CoT/SpotDiff/628516.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 8",
+            "B: 14",
+            "C: 12",
+            "D: 15"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/771564.png",
+            "image_b": "CoT/SpotDiff/161942.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 12",
+            "B: 16",
+            "C: 20",
+            "D: 14"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/287401.png",
+            "image_b": "CoT/SpotDiff/317455.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 15",
+            "B: 21",
+            "C: 18",
+            "D: 11"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/340367.png",
+            "image_b": "CoT/SpotDiff/126123.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 15",
+            "B: 25",
+            "C: 22",
+            "D: 23"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/447286.png",
+            "image_b": "CoT/SpotDiff/882437.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 25",
+            "B: 15",
+            "C: 9",
+            "D: 13"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/404966.png",
+            "image_b": "CoT/SpotDiff/881458.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 20",
+            "B: 14",
+            "C: 7",
+            "D: 19"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/399629.png",
+            "image_b": "CoT/SpotDiff/400905.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 12",
+            "B: 21",
+            "C: 15",
+            "D: 7"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/505097.png",
+            "image_b": "CoT/SpotDiff/723095.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 12",
+            "B: 10",
+            "C: 19",
+            "D: 15"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/153708.png",
+            "image_b": "CoT/SpotDiff/254892.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 25",
+            "B: 15",
+            "C: 9",
+            "D: 12"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/564007.png",
+            "image_b": "CoT/SpotDiff/409539.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 16",
+            "B: 13",
+            "C: 14",
+            "D: 19"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/827067.png",
+            "image_b": "CoT/SpotDiff/578637.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 20",
+            "B: 23",
+            "C: 14",
+            "D: 18"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/797341.png",
+            "image_b": "CoT/SpotDiff/643475.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 11",
+            "B: 19",
+            "C: 14",
+            "D: 22"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/383097.png",
+            "image_b": "CoT/SpotDiff/960135.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 21",
+            "B: 14",
+            "C: 9",
+            "D: 15"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/217565.png",
+            "image_b": "CoT/SpotDiff/477889.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 17",
+            "B: 13",
+            "C: 8",
+            "D: 11"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/286118.png",
+            "image_b": "CoT/SpotDiff/395891.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 14",
+            "B: 10",
+            "C: 9",
+            "D: 13"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/220881.png",
+            "image_b": "CoT/SpotDiff/591077.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 11",
+            "B: 14",
+            "C: 7",
+            "D: 4"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/225405.png",
+            "image_b": "CoT/SpotDiff/415397.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 9",
+            "B: 14",
+            "C: 22",
+            "D: 6"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/114008.png",
+            "image_b": "CoT/SpotDiff/242807.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 16",
+            "B: 21",
+            "C: 9",
+            "D: 20"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/125275.png",
+            "image_b": "CoT/SpotDiff/860125.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 14",
+            "B: 10",
+            "C: 17",
+            "D: 23"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/211806.png",
+            "image_b": "CoT/SpotDiff/425603.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 11",
+            "B: 14",
+            "C: 6",
+            "D: 7"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/897861.png",
+            "image_b": "CoT/SpotDiff/724634.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 14",
+            "B: 19",
+            "C: 7",
+            "D: 18"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/739622.png",
+            "image_b": "CoT/SpotDiff/516113.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 10",
+            "B: 14",
+            "C: 15",
+            "D: 7"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/644354.png",
+            "image_b": "CoT/SpotDiff/428982.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 15",
+            "B: 22",
+            "C: 14",
+            "D: 16"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/530837.png",
+            "image_b": "CoT/SpotDiff/220284.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 14",
+            "B: 16",
+            "C: 7",
+            "D: 20"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/791217.png",
+            "image_b": "CoT/SpotDiff/433858.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 8",
+            "B: 15",
+            "C: 14",
+            "D: 23"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/512941.png",
+            "image_b": "CoT/SpotDiff/237002.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 14",
+            "B: 10",
+            "C: 4",
+            "D: 5"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/405594.png",
+            "image_b": "CoT/SpotDiff/550411.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 19",
+            "B: 21",
+            "C: 20",
+            "D: 15"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/206269.png",
+            "image_b": "CoT/SpotDiff/585476.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 14",
+            "B: 13",
+            "C: 18",
+            "D: 15"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/399248.png",
+            "image_b": "CoT/SpotDiff/288094.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 14",
+            "B: 4",
+            "C: 13",
+            "D: 19"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/691709.png",
+            "image_b": "CoT/SpotDiff/933449.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 18",
+            "B: 23",
+            "C: 13",
+            "D: 9"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/863014.png",
+            "image_b": "CoT/SpotDiff/478332.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 14",
+            "B: 22",
+            "C: 5",
+            "D: 21"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/603758.png",
+            "image_b": "CoT/SpotDiff/768294.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 14",
+            "B: 12",
+            "C: 13",
+            "D: 5"
+        ],
+        "answer": "C",
+        "data": {
+            "image_a": "CoT/SpotDiff/295991.png",
+            "image_b": "CoT/SpotDiff/301900.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 7",
+            "B: 16",
+            "C: 20",
+            "D: 13"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/626808.png",
+            "image_b": "CoT/SpotDiff/239989.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 18",
+            "B: 11",
+            "C: 15",
+            "D: 13"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/313095.png",
+            "image_b": "CoT/SpotDiff/643784.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 20",
+            "B: 13",
+            "C: 8",
+            "D: 15"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/367806.png",
+            "image_b": "CoT/SpotDiff/270811.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 13",
+            "B: 17",
+            "C: 12",
+            "D: 22"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/302142.png",
+            "image_b": "CoT/SpotDiff/951170.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 13",
+            "B: 23",
+            "C: 3",
+            "D: 11"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/222158.png",
+            "image_b": "CoT/SpotDiff/402360.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 21",
+            "B: 11",
+            "C: 5",
+            "D: 13"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/140141.png",
+            "image_b": "CoT/SpotDiff/152781.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 5",
+            "B: 13",
+            "C: 16",
+            "D: 4"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/175263.png",
+            "image_b": "CoT/SpotDiff/598437.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 17",
+            "B: 14",
+            "C: 9",
+            "D: 23"
+        ],
+        "answer": "B",
+        "data": {
+            "image_a": "CoT/SpotDiff/315536.png",
+            "image_b": "CoT/SpotDiff/117764.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 13",
+            "B: 17",
+            "C: 16",
+            "D: 8"
+        ],
+        "answer": "A",
+        "data": {
+            "image_a": "CoT/SpotDiff/571181.png",
+            "image_b": "CoT/SpotDiff/589190.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 9",
+            "B: 4",
+            "C: 15",
+            "D: 13"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/804644.png",
+            "image_b": "CoT/SpotDiff/739549.png"
+        }
+    },
+    {
+        "category": "CoT",
+        "source": "SpotDiff",
+        "choice": [
+            "A: 9",
+            "B: 11",
+            "C: 14",
+            "D: 13"
+        ],
+        "answer": "D",
+        "data": {
+            "image_a": "CoT/SpotDiff/776704.png",
+            "image_b": "CoT/SpotDiff/447846.png"
+        }
+    }
+]

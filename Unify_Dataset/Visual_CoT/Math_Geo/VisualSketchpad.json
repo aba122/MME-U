@@ -1,0 +1,834 @@
+[
+    {
+        "problem_text": "Given the quadrilateral ABCD, where line segment AB is parallel to line segment DC, the measure of ∠ABC is 60°, and the measure of ∠ADC is 45°. Additionally, the length of BC is 8 units, and the length of AB is 24 units. Determine the perimeter of quadrilateral ABCD.",
+        "choices": [
+            "A: 26 + 2 \\sqrt { 3 } + 2 \\sqrt { 6 }",
+            "B: 26 + 4 \\sqrt { 3 } + 4 \\sqrt { 6 }",
+            "C: 52 + 2 \\sqrt { 3 } + 2 \\sqrt { 6 }",
+            "D: 52 + 4 \\sqrt { 3 } + 4 \\sqrt { 6 }"
+        ],
+        "answer": "D",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/428.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/428_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/428_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/428_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/428_Auxiliary_lines_negative3.png",
+        "code": "import matplotlib.pyplot as plt\n\n# Define coordinates\npoints = {\n    \"A\": [121.0, 1.0],\n    \"B\": [466.0, 0.0],\n    \"C\": [398.0, 122.0],\n    \"D\": [1.0, 122.0]\n}\n\n# Create the figure and axis\nfig, ax = plt.subplots()\nfig.set_size_inches(10, 8)\n\n# Draw lines between points\nlines = {\n    \"AB\": (\"A\", \"B\"),\n    \"CB\": (\"C\", \"B\"),\n    \"DA\": (\"D\", \"A\"),\n    \"DC\": (\"D\", \"C\")\n}\n\nfor line in lines.values():\n    x_values = [points[line[0]][0], points[line[1]][0]]\n    y_values = [points[line[0]][1], points[line[1]][1]]\n    ax.plot(x_values, y_values, 'k-')  # 'k-' for black line\n\n# Add points and labels\nfor point, coord in points.items():\n    ax.plot(coord[0], coord[1], 'ko')  # 'ko' for black dot\n    ax.text(coord[0] + 5, coord[1] + 5, point, fontsize=20, color='red')\n\n# Set the aspect of the plot to be equal\nax.set_aspect('equal')\n\n# Remove axes\nax.axis('off')\n\n# Display the plot\nplt.show()\n"
+    },
+    {
+        "problem_text": "Given a parallelogram CDEF, where the length of line segment ED is 10 units and the length of line segment CD is 30 units, with the measure of ∠CED being 60 degrees, find the area of the parallelogram. Round your answer to the nearest tenth if necessary.",
+        "choices": [
+            "A: 150",
+            "B: 259.9",
+            "C: 300",
+            "D: 519.6"
+        ],
+        "answer": "B",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/871.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/871_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/871_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/871_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/871_Auxiliary_lines_negative3.png",
+        "code": "import matplotlib.pyplot as plt\n\n# Coordinates of points\npoints = {\n    \"B\": [310.0, 91.0],\n    \"C\": [360.0, 4.0],\n    \"D\": [54.0, 1.0],\n    \"E\": [0.0, 91.0]\n}\n\n# Create a figure and an axes.\nfig, ax = plt.subplots()\n\n# Set the aspect of the plot to be equal\nax.set_aspect('equal')\n\n# Hide the axes\nax.axis('off')\n\n# Set the size of the figure\nfig.set_size_inches(12, 8)\n\n# Draw lines between points\nlines = [(\"B\", \"C\"), (\"B\", \"E\"), (\"C\", \"D\"), (\"E\", \"D\")]\nfor line in lines:\n    x_values = [points[line[0]][0], points[line[1]][0]]\n    y_values = [points[line[0]][1], points[line[1]][1]]\n    ax.plot(x_values, y_values, 'k-')  # 'k-' denotes black color line\n\n# Label points\nfor point, coord in points.items():\n    ax.text(coord[0] + 5, coord[1] + 5, point, color='red', fontsize=20)\n\n# Show the plot\nplt.show()\n"
+    },
+    {
+        "problem_text": "In parallelogram WXYZ, the measure of ∠XWZ is 105°, the length of side YX is 24 units, and the length of side ZY is 28 units. Using this information, determine the length of diagonal WZ.",
+        "choices": [
+            "A: 4",
+            "B: 24",
+            "C: 28",
+            "D: 52"
+        ],
+        "answer": "B",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/421.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/421_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/421_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/421_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/421_Auxiliary_lines_negative3.png",
+        "code": "import matplotlib.pyplot as plt\n\n# Define coordinates\npoints = {\"Z\": [1.0, 177.0], \"W\": [84.0, 3.0], \"X\": [334.0, 1.0], \"Y\": [251.0, 175.0]}\n\n# Define lines based on point connections\nlines = [(\"Z\", \"W\"), (\"Z\", \"Y\"), (\"W\", \"X\"), (\"Y\", \"X\")]\n\n# Create a plot\nfig, ax = plt.subplots()\nax.set_aspect('equal')\n\n# Draw lines\nfor line in lines:\n    x_values = [points[line[0]][0], points[line[1]][0]]\n    y_values = [points[line[0]][1], points[line[1]][1]]\n    ax.plot(x_values, y_values, color='black')\n\n# Annotate points and ensure labels do not overlap with the lines\nfor point, coord in points.items():\n    ax.text(coord[0], coord[1], f' {point}', verticalalignment='bottom', horizontalalignment='right', color='red', fontsize=20)\n\n# Set figure size\nfig.set_size_inches(10, 10)\n\n# Hide axes\nax.axis('off')\n\n# Show the plot\nplt.show()\n"
+    },
+    {
+        "problem_text": "In circle \\(\\odot R\\), let points \\(S\\), \\(U\\), \\(Y\\), \\(W\\), \\(X\\), and \\(T\\) lie on the circumference. It is given that \\(SU = 20\\) units and \\(YW = 20\\) units. Additionally, \\(\\angle YX = 45^\\circ\\). Points \\(V\\) and \\(Z\\) lie such that \\(V\\) is on the line \\(US\\), \\(Z\\) is on the line \\(YW\\), and both \\(V\\) and \\(Z\\) lie on lines that are perpendicular to other lines: \\(VS \\perp VR\\) and \\(ZR \\perp YZ\\). Given this configuration, find the measure of \\(\\angle SU\\).",
+        "choices": [
+            "A: 20",
+            "B: 30",
+            "C: 45",
+            "D: 90"
+        ],
+        "answer": "D",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/2079.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/2079_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/2079_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/2079_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/2079_Auxiliary_lines_negative3.png",
+        "code": "import matplotlib.pyplot as plt\nimport numpy as np\n\n# Coordinates\npoints = {\n    \"R\": [100.0, 97.0], \"S\": [106.0, 0.0], \"T\": [178.0, 39.0], \"U\": [195.0, 121.0],\n    \"V\": [150.0, 60.0], \"W\": [141.0, 186.0], \"X\": [61.0, 188.0], \"Y\": [7.0, 128.0],\n    \"Z\": [74.0, 157.0]\n}\n\n# Lines\nlines = [\n    (\"R\", \"T\"), (\"R\", \"X\"), (\"U\", \"S\"), (\"V\", \"R\"), (\"V\", \"S\"),\n    (\"V\", \"T\"), (\"V\", \"U\"), (\"Y\", \"W\"), (\"Y\", \"Z\"), (\"Z\", \"R\"),\n    (\"Z\", \"W\"), (\"Z\", \"X\")\n]\n\n# Plot setup\nfig, ax = plt.subplots()\nax.set_aspect('equal')\nax.axis('off')\n\n# Draw Lines\nfor line in lines:\n    x_values = [points[line[0]][0], points[line[1]][0]]\n    y_values = [points[line[0]][1], points[line[1]][1]]\n    ax.plot(x_values, y_values, 'k-')  # 'k-' for black line\n\n# Draw Circles\nradius = np.linalg.norm(np.array(points[\"R\"]) - np.array(points[\"S\"]))\ncircle = plt.Circle((points[\"R\"][0], points[\"R\"][1]), radius, color='k', fill=False)\nax.add_artist(circle)\n\n# Plot points\nfor point, coord in points.items():\n    ax.plot(coord[0], coord[1], 'ko')  # 'ko' for black dot\n    ax.text(coord[0]+2, coord[1]+2, point, fontsize=20, color='red', va='bottom', ha='left')\n\n# Adjust plot limits\nax.set_xlim(0, 250)\nax.set_ylim(0, 250)\n\nplt.show()\n"
+    },
+    {
+        "problem_text": "Consider the geometric figure ADBCN. You are given that the length of line segment AN is 5 units, BD is 8 units, BC is 12 units, and CN is 15 units. It is known that line segment DB is perpendicular to line segment BC, line segment BC is perpendicular to line segment NC, and line segment AN is perpendicular to line segment NC. Using this information, find the area of the figure ADBCN. Round your answer to the nearest tenth if necessary.",
+        "choices": [
+            "A: 24.5",
+            "B: 49",
+            "C: 155.5",
+            "D: 180"
+        ],
+        "answer": "C",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1624.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1624_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1624_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1624_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1624_Auxiliary_lines_negative3.png",
+        "code": "import matplotlib.pyplot as plt\n\n# Coordinates of points\ncoordinates = {\n    \"A\": [197.0, 93.0],\n    \"B\": [3.0, 0.0],\n    \"C\": [-0.0, 157.0],\n    \"D\": [105.0, 2.0],\n    \"N\": [197.0, 152.0]\n}\n\n# Line instances\nlines = [\n    (\"A\", \"D\"),\n    (\"A\", \"N\"),\n    (\"B\", \"C\"),\n    (\"D\", \"B\"),\n    (\"N\", \"C\")\n]\n\n# Setup the plot\nfig, ax = plt.subplots()\nax.set_aspect('equal')\nax.axis('off')\n\n# Draw lines\nfor line in lines:\n    point1, point2 = line\n    x_values = [coordinates[point1][0], coordinates[point2][0]]\n    y_values = [coordinates[point1][1], coordinates[point2][1]]\n    ax.plot(x_values, y_values, 'k')  # 'k' for black line\n\n# Label points\nfor point, coord in coordinates.items():\n    ax.text(coord[0] + 2, coord[1] + 2, point, fontsize=20, color='red', va='center', ha='center')\n\n# Set limits\nax.set_xlim(min(coord[0] for coord in coordinates.values()) - 10, max(coord[0] for coord in coordinates.values()) + 10)\nax.set_ylim(min(coord[1] for coord in coordinates.values()) - 10, max(coord[1] for coord in coordinates.values()) + 10)\n\n# Show the plot\nplt.show()\n"
+    },
+    {
+        "problem_text": "Given △LMN, which is an equilateral triangle with side length NL = 8 units, a circle \\odot P is inscribed. Let points D, E, and F be the points where \\odot P touches the sides of the triangle, such that D lies on line segment ML, E lies on line segment NM, and F lies on line segment LN. The circle \\odot P is tangent to each side of the triangle at these points. What is the circumference of the circle \\odot P?",
+        "choices": [
+            "A: \\frac { 8 } { 3 } \\pi",
+            "B: \\frac { 8 } { \\sqrt 3 } \\pi",
+            "C: 8 \\sqrt 3 \\pi",
+            "D: 24 \\pi"
+        ],
+        "answer": "B",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1465.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1465_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1465_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1465_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1465_Auxiliary_lines_negative3.png",
+        "code": "import matplotlib.pyplot as plt\nimport numpy as np\n\n# Define points\npoints = {'D': [92.0, 155.0], 'E': [184.0, 313.0], 'F': [271.0, 157.0], 'L': [181.0, 0.0], 'M': [0.0, 313.0], 'N': [361.0, 313.0], 'P': [184.0, 208.0]}\n\n# Define lines\nlines = {\n    'LN': ('L', 'N'),\n    'ML': ('M', 'L'),\n    'MN': ('M', 'N'),\n    'EM': ('E', 'M'),\n    'EN': ('E', 'N'),\n    'FN': ('F', 'N'),\n    'FL': ('F', 'L'),\n    'DL': ('D', 'L'),\n    'DM': ('D', 'M')\n}\n\n# Calculate radius of the circle\nradius = np.linalg.norm(np.array(points['D']) - np.array(points['P']))\n\n# Create plot\nfig, ax = plt.subplots()\nax.set_aspect('equal')\n\n# Draw lines\nfor line in lines.values():\n    p1, p2 = points[line[0]], points[line[1]]\n    ax.plot([p1[0], p2[0]], [p1[1], p2[1]], 'k-')  # Black lines\n\n# Draw circle\ncircle = plt.Circle(points['P'], radius, color='k', fill=False)\nax.add_artist(circle)\n\n# Plot points\nfor label, coord in points.items():\n    ax.plot(*coord, 'ko')  # Black points\n    ax.text(coord[0] + 5, coord[1] + 5, label, fontsize=20, color='r')  # Red labels\n\n# Set limits\nplot_radius = 2 * radius\nmax_coord = max(max(abs(x) for x in point) for point in points.values())\nlimit = max(plot_radius, max_coord)\nax.set_xlim(-limit, limit)\nax.set_ylim(-limit, limit)\n\n# Hide the background\nax.axis('off')\n\nplt.show()\n"
+    },
+    {
+        "problem_text": "In a geometric plane, consider a circle centered at point E with a radius of 4 units. Additionally, point J lies on line AH, point K lies on line GC, and point B lies on line GI. Furthermore, the point F lies on line LC, and the line segment DI is a part of line HI. Given these conditions, determine the area of the shaded region formed by the intersection of the circle and the regular polygon, and round your answer to the nearest tenth.",
+        "choices": [
+            "A: 0.6",
+            "B: 1.9",
+            "C: 1.4",
+            "D: 3.9"
+        ],
+        "answer": "C",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1841.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1841_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1841_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1841_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1841_Auxiliary_lines_negative3.png",
+        "code": "import matplotlib.pyplot as plt\n\n# Define coordinates\npoints = {\n    \"A\": [169.0, 195.0], \"B\": [28.0, 51.0], \"C\": [170.0, 1.0], \"D\": [32.0, 150.0], \"E\": [112.0, 96.0],\n    \"F\": [198.0, 53.0], \"G\": [57.0, 0.0], \"H\": [57.0, 194.0], \"I\": [1.0, 100.0], \"J\": [113.0, 194.0],\n    \"K\": [116.0, 1.0], \"L\": [224.0, 100.0], \"N\": [164.0, 185.0]\n}\nlines = [\n    (\"A\", \"E\"), (\"A\", \"H\"), (\"A\", \"J\"), (\"A\", \"L\"), (\"A\", \"N\"), (\"B\", \"I\"), (\"C\", \"F\"), (\"C\", \"K\"),\n    (\"E\", \"N\"), (\"G\", \"B\"), (\"G\", \"C\"), (\"G\", \"I\"), (\"G\", \"K\"), (\"G\", \"N\"), (\"H\", \"D\"), (\"H\", \"I\"),\n    (\"H\", \"J\"), (\"H\", \"N\"), (\"I\", \"D\"), (\"J\", \"N\"), (\"L\", \"C\"), (\"L\", \"F\")\n]\ncircle_center = \"E\"\ncircle_radius = 4.0  # From the logical description and diagram rules\n\n# Create figure and axis\nfig, ax = plt.subplots()\nax.set_aspect('equal')\n\n# Draw lines\nfor line in lines:\n    p1, p2 = line\n    ax.plot([points[p1][0], points[p2][0]], [points[p1][1], points[p2][1]], 'k-')  # black line\n\n# Draw circle\ncircle = plt.Circle((points[circle_center][0], points[circle_center][1]), circle_radius, color='k', fill=False)\nax.add_artist(circle)\n\n# Plot points and labels\nfor point, coord in points.items():\n    ax.plot(coord[0], coord[1], 'ko')  # black point\n    ax.text(coord[0], coord[1], f' {point}', fontsize=20, color='red', verticalalignment='bottom', horizontalalignment='right')\n\n# Set limits\nmax_coordinate = max(max(x) for x in points.values()) + circle_radius\nax.set_xlim(-max_coordinate, max_coordinate)\nax.set_ylim(-max_coordinate, max_coordinate)\n\n# Hide background\nax.axis('off')\n\nplt.show()\n"
+    },
+    {
+        "problem_text": "Given a geometric configuration where ∠BCJ = 105°, ∠CIK = x°, and ∠KNF = 125°, consider the following conditions: E lies on line FH, C lies on both line BD and line IJ, and E lies on line IK. Additionally, line DB is parallel to line FH. Using this information, find the measure of ∠EIC. (Hint: Consider drawing an auxiliary line to assist in solving the problem.)",
+        "choices": [
+            "A: 105",
+            "B: 120",
+            "C: 125",
+            "D: 130"
+        ],
+        "answer": "D",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/362.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/362_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/362_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/362_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/362_Auxiliary_lines_negative3.png",
+        "code": "import matplotlib.pyplot as plt\n\n# Define the coordinates\npoints = {\n    \"B\": [1.0, 92.0], \n    \"C\": [226.0, 91.0], \n    \"D\": [492.0, 92.0], \n    \"E\": [242.0, 197.0], \n    \"F\": [2.0, 199.0], \n    \"H\": [492.0, 199.0], \n    \"I\": [207.0, 145.0], \n    \"J\": [245.0, 1.0], \n    \"K\": [292.0, 271.0]\n}\n\n# Define the line instances between points\nlines = [\n    (\"B\", \"C\"),\n    (\"B\", \"D\"),\n    (\"C\", \"D\"),\n    (\"C\", \"I\"),\n    (\"C\", \"J\"),\n    (\"E\", \"F\"),\n    (\"E\", \"H\"),\n    (\"E\", \"I\"),\n    (\"E\", \"K\"),\n    (\"F\", \"H\"),\n    (\"I\", \"J\"),\n    (\"I\", \"K\")\n]\n\n# Create the plot\nfig, ax = plt.subplots()\nax.set_aspect('equal')\n\n# Plot each line\nfor line in lines:\n    x_values = [points[line[0]][0], points[line[1]][0]]\n    y_values = [points[line[0]][1], points[line[1]][1]]\n    ax.plot(x_values, y_values, 'k-')  # 'k-' denotes black color line\n\n# Annotate each point\nfor point, coord in points.items():\n    ax.text(coord[0], coord[1], f' {point}', fontsize=20, color='red', verticalalignment='bottom', horizontalalignment='right')\n\n# Set limits and hide axes\nax.set_xlim(0, 550)\nax.set_ylim(0, 300)\nax.axis('off')\n\nplt.show()\n"
+    },
+    {
+        "problem_text": "Given a circle with center A and radius such that points B, C, and D lie on the circumference, and a regular triangle △BCD is inscribed in this circle. The length of line segment AB is 2.4 units. Determine the area of the shaded region, which is defined as the area inside the circle centered at A but outside the inscribed triangle △BCD. Round your answer to the nearest tenth.",
+        "choices": [
+            "A: 10.6",
+            "B: 15.2",
+            "C: 15.6",
+            "D: 18.1"
+        ],
+        "answer": "A",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/253.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/253_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/253_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/253_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/253_Auxiliary_lines_negative3.png",
+        "code": "import matplotlib.pyplot as plt\nimport numpy as np\n\n# Coordinates of the points\npoints = {\n    \"A\": [110.0, 105.0],\n    \"B\": [14.0, 158.0],\n    \"C\": [198.0, 159.0],\n    \"D\": [106.0, 2.0],\n    \"E\": [64.0, 130.0],\n    \"F\": [81.0, 121.0],\n    \"G\": [50.0, 140.0]\n}\n\n# Lines to be drawn\nlines = [\n    (\"A\", \"B\"), (\"A\", \"E\"), (\"A\", \"F\"), (\"A\", \"G\"),\n    (\"B\", \"C\"), (\"B\", \"D\"), (\"B\", \"E\"), (\"B\", \"F\"), (\"B\", \"G\"),\n    (\"C\", \"D\"), (\"E\", \"F\"), (\"E\", \"G\"), (\"F\", \"G\")\n]\n\n# Circles to be drawn (center, radius)\ncircles = {\n    \"A\": np.linalg.norm(np.array(points[\"A\"]) - np.array(points[\"B\"]))\n}\n\n# Create the plot\nfig, ax = plt.subplots()\n\n# Draw the lines\nfor line in lines:\n    point1, point2 = line\n    x_values = [points[point1][0], points[point2][0]]\n    y_values = [points[point1][1], points[point2][1]]\n    ax.plot(x_values, y_values, 'k-')  # 'k-' for black line\n\n# Draw the circles\nfor center, radius in circles.items():\n    circle = plt.Circle(points[center], radius, color='k', fill=False)\n    ax.add_artist(circle)\n\n# Label the points\nfor point, coord in points.items():\n    ax.text(coord[0], coord[1], f' {point}', color='red', fontsize=20, verticalalignment='center', horizontalalignment='left')\n\n# Set the aspect of the plot to be equal\nax.set_aspect('equal')\n\n# Set the limits of the plot\nall_coords = np.array(list(points.values()))\nmax_radius = max(circles.values())\nlimit = np.max(np.abs(all_coords)) + max_radius\nax.set_xlim(-limit, limit)\nax.set_ylim(-limit, limit)\n\n# Remove the background\nax.axis('off')\n\n# Show the plot\nplt.show()\n"
+    },
+    {
+        "problem_text": "In a given geometric configuration, consider △JLA and △GJC with the following properties: ∠JLA measures 72°, and ∠GJC measures 50°. It is known that point A lies on both line HL and line IO, while point J lies on both line LG and line CN. Additionally, lines IO and CN are parallel to each other. You are asked to find the measure of ∠IAH. As a hint, consider drawing an auxiliary line to aid in solving the problem.",
+        "choices": [
+            "A: 22",
+            "B: 36",
+            "C: 50",
+            "D: 72"
+        ],
+        "answer": "A",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1687.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1687_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1687_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1687_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1687_Auxiliary_lines_negative3.png",
+        "code": "import matplotlib.pyplot as plt\n\n# Define the coordinates\npoints = {\n    \"A\": [274.0, 51.0],\n    \"C\": [0.0, 157.0],\n    \"G\": [212.0, 255.0],\n    \"H\": [150.0, 0.0],\n    \"I\": [0.0, 50.0],\n    \"J\": [294.0, 159.0],\n    \"L\": [357.0, 85.0],\n    \"N\": [489.0, 157.0],\n    \"O\": [492.0, 51.0]\n}\n\n# Define the lines\nlines = [\n    (\"A\", \"H\"), (\"A\", \"I\"), (\"A\", \"L\"), (\"A\", \"O\"),\n    (\"C\", \"J\"), (\"C\", \"N\"),\n    (\"H\", \"L\"),\n    (\"I\", \"O\"),\n    (\"J\", \"G\"), (\"J\", \"N\"),\n    (\"L\", \"G\"), (\"L\", \"J\")\n]\n\n# Create the plot\nfig, ax = plt.subplots()\nax.set_aspect('equal')\nfor line in lines:\n    point1, point2 = line\n    x_values = [points[point1][0], points[point2][0]]\n    y_values = [points[point1][1], points[point2][1]]\n    ax.plot(x_values, y_values, 'k-')  # Black line\n\n# Plot points and labels\nfor point, coords in points.items():\n    ax.plot(coords[0], coords[1], 'ko')  # Black point\n    ax.text(coords[0] + 5, coords[1], point, fontsize=20, color='red', verticalalignment='center')\n\n# Set limits and aspect\nax.set_xlim(-50, 550)\nax.set_ylim(-50, 300)\nax.axis('off')\n\nplt.show()\n"
+    },
+    {
+        "problem_text": "Consider △ABC, where ∠ABC is given to be 30°. Points A and C lie on a circle with center D and radius 3.0 units. Assume that any segment that appears to be tangent to the circle is indeed tangent. Determine the measure of arc AC, denoted as x.",
+        "choices": [
+            "A: 30",
+            "B: 120",
+            "C: 150",
+            "D: 210"
+        ],
+        "answer": "D",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1757.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1757_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1757_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1757_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1757_Auxiliary_lines_negative3.png",
+        "code": "import matplotlib.pyplot as plt\nimport numpy as np\n\n# Define points\npoints = {\n    \"A\": [89.0, 103.0],\n    \"B\": [258.0, 56.0],\n    \"C\": [69.0, 2.0],\n    \"D\": [57.0, 57.0]\n}\n\n# Define lines\nlines = [\n    (\"A\", \"B\"),\n    (\"B\", \"C\")\n]\n\n# Define circle center and radius calculation\ncenter = points[\"D\"]\nradius = np.sqrt((points[\"A\"][0] - center[0])**2 + (points[\"A\"][1] - center[1])**2)\n\n# Create plot\nfig, ax = plt.subplots()\n\n# Draw lines\nfor line in lines:\n    x_values = [points[line[0]][0], points[line[1]][0]]\n    y_values = [points[line[0]][1], points[line[1]][1]]\n    ax.plot(x_values, y_values, 'k-')  # 'k-' is black color for the line\n\n# Draw circle\ncircle = plt.Circle(center, radius, color='k', fill=False)\nax.add_artist(circle)\n\n# Plot points and labels\nfor point, coord in points.items():\n    ax.plot(coord[0], coord[1], 'ro')  # 'ro' is red color for the point\n    ax.text(coord[0], coord[1], f' {point}', fontsize=20, color='red', verticalalignment='bottom', horizontalalignment='right')\n\n# Set limits\nmax_coordinate = max([max(abs(x), abs(y)) for x, y in points.values()])\nlimit = max(2 * radius, 2 * max_coordinate)\nax.set_xlim(-limit, limit)\nax.set_ylim(-limit, limit)\n\n# Set equal aspect ratio\nax.set_aspect('equal')\n\n# Turn off axes\nax.axis('off')\n\n# Show plot\nplt.show()\n"
+    },
+    {
+        "problem_text": "Given an isosceles trapezoid ABCD, where the lengths of the parallel bases are AB = 35 meters and CD = 19 meters, determine the area of the trapezoid. It is known that the perimeter of trapezoid ABCD is 74 meters. Use this information to find the lengths of the non-parallel sides AD and BC, assuming they are equal due to the isosceles property. After determining the missing dimensions, calculate the area of trapezoid ABCD.",
+        "choices": [
+            "A: 162",
+            "B: 270",
+            "C: 332.5",
+            "D: 342.25"
+        ],
+        "answer": "A",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/472.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/472_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/472_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/472_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/472_Auxiliary_lines_negative3.png",
+        "code": "import matplotlib.pyplot as plt\n\n# Define coordinates\npoints = {\"A\": [240.0, 130.0], \"B\": [1.0, 130.0], \"C\": [186.0, 1.0], \"D\": [57.0, 0.0]}\n\n# Create the figure and axis\nfig, ax = plt.subplots()\nax.set_aspect('equal')\n\n# Draw lines between points\nlines = [(\"A\", \"B\"), (\"A\", \"C\"), (\"B\", \"D\"), (\"C\", \"D\")]\nfor line in lines:\n    x_values = [points[line[0]][0], points[line[1]][0]]\n    y_values = [points[line[0]][1], points[line[1]][1]]\n    ax.plot(x_values, y_values, 'k-')  # 'k-' for black line\n\n# Annotate points\nfor point, coord in points.items():\n    ax.text(coord[0], coord[1], point, fontsize=20, color='red', ha='right', va='bottom')\n\n# Set limits and hide axes\nax.set_xlim(0, 250)\nax.set_ylim(0, 140)\nax.axis('off')\n\n# Display the plot\nplt.show()\n"
+    },
+    {
+        "problem_text": "In the parallelogram ABCD, the length of line segment \\( \\overline{CB} \\) is 4 units. The measure of \\( \\angle CBO \\) is \\( 45^\\circ \\), where O is a point such that line \\( \\overline{CO} \\) is perpendicular to line \\( \\overline{BO} \\). Given these conditions, find the perimeter of the parallelogram ABCD. Round your answer to the nearest tenth if necessary.",
+        "choices": [
+            "A: 10",
+            "B: 13.7",
+            "C: 14.9",
+            "D: 16"
+        ],
+        "answer": "B",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1839.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1839_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1839_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1839_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1839_Auxiliary_lines_negative3.png",
+        "code": "import matplotlib.pyplot as plt\n\n# Define the coordinates\ncoordinates = {\n    \"A\": [362.0, 2.0],\n    \"B\": [0.0, 183.0],\n    \"C\": [182.0, 1.0],\n    \"O\": [183.0, 183.0]\n}\n\n# Define the lines between points\nlines = {\n    \"AC\": (\"A\", \"C\"),\n    \"AO\": (\"A\", \"O\"),\n    \"CB\": (\"C\", \"B\"),\n    \"OB\": (\"O\", \"B\")\n}\n\n# Create a new figure with specified figure size\nfig, ax = plt.subplots(figsize=(10, 10))\n\n# Draw each line\nfor line in lines.values():\n    x_values = [coordinates[line[0]][0], coordinates[line[1]][0]]\n    y_values = [coordinates[line[0]][1], coordinates[line[1]][1]]\n    ax.plot(x_values, y_values, 'k-')  # 'k-' specifies a black line\n\n# Plot each point and label them\nfor point, coord in coordinates.items():\n    ax.plot(coord[0], coord[1], 'ko')  # 'ko' specifies black color for points\n    ax.text(coord[0], coord[1], f' {point}', fontsize=20, color='red', verticalalignment='bottom', horizontalalignment='right')\n\n# Set the aspect of the plot to be equal\nax.set_aspect('equal')\n\n# Remove axes\nax.axis('off')\n\n# Show the plot\nplt.show()\n"
+    },
+    {
+        "problem_text": "Given a parallelogram ABCD, where the length of side AB is 36 units and the length of side AD is 22 units, point E lies on line CD such that line BE is perpendicular to line CE. The measure of ∠BCE is 30°. Find the area of the parallelogram ABCD.",
+        "choices": [
+            "A: 396",
+            "B: 560.0",
+            "C: 685.9",
+            "D: 792"
+        ],
+        "answer": "A",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1855.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1855_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1855_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1855_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1855_Auxiliary_lines_negative3.png",
+        "code": "import matplotlib.pyplot as plt\n\n# Define the coordinates\npoints = {\"A\": [339.0, 1.0], \"B\": [131.0, 2.0], \"C\": [2.0, 74.0], \"D\": [215.0, 74.0]}\n\n# Create the figure and axis\nfig, ax = plt.subplots()\nax.set_aspect('equal')\n\n# Draw lines based on line instances provided\nlines = {\n    \"AB\": (\"A\", \"B\"),\n    \"AD\": (\"A\", \"D\"),\n    \"BC\": (\"B\", \"C\"),\n    \"DC\": (\"D\", \"C\"),\n}\n\nfor line, (start, end) in lines.items():\n    x_values = [points[start][0], points[end][0]]\n    y_values = [points[start][1], points[end][1]]\n    ax.plot(x_values, y_values, marker='o', color='black')\n\n# Label points\nfor point, coord in points.items():\n    ax.text(coord[0] + 2, coord[1] + 2, point, fontsize=20, color='red', verticalalignment='bottom', horizontalalignment='left')\n\n# Set limits and hide axes\nax.set_xlim(0, 350)\nax.set_ylim(0, 100)\nax.axis('off')\n\nplt.show()\n"
+    },
+    {
+        "problem_text": "Given trapezoid ABCD, where AB is parallel to CD, the length of AB is 35 meters, and the length of CD is 25 meters, the area of trapezoid ABCD is 750 square meters. Find the height of trapezoid ABCD.",
+        "choices": [
+            "A: 20",
+            "B: 25",
+            "C: 30",
+            "D: 35"
+        ],
+        "answer": "B",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/803.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/803_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/803_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/803_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/803_Auxiliary_lines_negative3.png",
+        "code": "import matplotlib.pyplot as plt\n\n# Define the coordinates\npoints = {\n    \"A\": [1.0, 3.0],\n    \"B\": [245.0, 1.0],\n    \"C\": [208.0, 141.0],\n    \"D\": [35.0, 141.0]\n}\n\n# Create the figure and axis\nfig, ax = plt.subplots(figsize=(10, 8))  # Adjust the size to your need\nax.set_aspect('equal')\n\n# Draw lines between points\nlines = {\n    \"AD\": (\"A\", \"D\"),\n    \"BA\": (\"B\", \"A\"),\n    \"BC\": (\"B\", \"C\"),\n    \"CD\": (\"C\", \"D\")\n}\n\nfor line, (start, end) in lines.items():\n    x_values = [points[start][0], points[end][0]]\n    y_values = [points[start][1], points[end][1]]\n    ax.plot(x_values, y_values, 'k-')  # 'k-' for black line\n\n# Plot points and labels\nfor point, coord in points.items():\n    ax.plot(*coord, 'ko')  # 'ko' for black circle\n    ax.text(coord[0], coord[1], f' {point}', fontsize=20, color='red', verticalalignment='center', horizontalalignment='right')\n\n# Hide the axes\nax.axis('off')\n\n# Display the plot\nplt.show()\n"
+    },
+    {
+        "problem_text": "In circle \\(\\odot K\\), the line segment \\(MN\\) has a length of 16 units, and the measure of \\(\\widehat{MN}\\) is 98 degrees. Additionally, the points \\(M\\), \\(N\\), and \\(L\\) all lie on the circumference of the circle \\(\\odot K\\), which has a radius of 7 units. The line segment \\(JK\\) measures 10 units, and point \\(P\\) lies on line \\(MN\\). Furthermore, point \\(P\\) also lies on line \\(LJ\\), and line \\(PK\\) is perpendicular to line \\(MP\\). Find the length of the line segment \\(LN\\) and round your answer to the nearest hundredth.",
+        "choices": [
+            "A: 6.93",
+            "B: 7.50",
+            "C: 8.94",
+            "D: 10.00"
+        ],
+        "answer": "C",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/8.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/8_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/8_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/8_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/8_Auxiliary_lines_negative3.png",
+        "code": "import matplotlib.pyplot as plt\nimport numpy as np\n\n# Define points\npoints = {\"J\": [160.0, 24.0], \"K\": [93.0, 97.0], \"L\": [33.0, 166.0], \"M\": [1.0, 96.0], \"N\": [98.0, 186.0], \"P\": [52.0, 144.0]}\n\n# Define lines\nlines = [(\"J\", \"K\"), (\"L\", \"J\"), (\"L\", \"K\"), (\"M\", \"L\"), (\"M\", \"N\"), (\"M\", \"P\"), (\"N\", \"L\"), (\"P\", \"J\"), (\"P\", \"K\"), (\"P\", \"L\"), (\"P\", \"N\")]\n\n# Setup plot\nfig, ax = plt.subplots()\nax.set_aspect('equal')\nax.axis('off')\n\n# Draw lines\nfor line in lines:\n    x_values = [points[line[0]][0], points[line[1]][0]]\n    y_values = [points[line[0]][1], points[line[1]][1]]\n    ax.plot(x_values, y_values, 'k-')  # 'k-' for black line\n\n# Draw circle with center at K and radius calculated from K to J\ncenter = np.array(points[\"K\"])\nradius = np.linalg.norm(np.array(points[\"J\"]) - center)\ncircle = plt.Circle(center, radius, color='k', fill=False)\nax.add_artist(circle)\n\n# Define plot limits\nlimit = 2 * radius\nax.set_xlim(center[0] - limit, center[0] + limit)\nax.set_ylim(center[1] - limit, center[1] + limit)\n\n# Draw points and labels\nfor label, coord in points.items():\n    ax.plot(coord[0], coord[1], 'ko')  # 'ko' for black dot\n    ax.text(coord[0], coord[1], f' {label}', fontsize=20, color='red', verticalalignment='bottom', horizontalalignment='right')\n\nplt.show()\n"
+    },
+    {
+        "problem_text": "Given a circle with center G and radius 5.0 units, let points A, C, D, E, and B lie on the shape of the circle. Assume that pentagon ABCDE is a regular pentagon. Calculate the area of ​​pentagon ABCDE in the area of ​​circle G.",
+        "choices": [
+            "A: 35.5",
+            "B: 16.2",
+            "C: 21.1",
+            "D: 62.7"
+        ],
+        "answer": "A",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/708.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/708_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/708_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/708_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/708_Auxiliary_lines_negative3.png",
+        "code": "import matplotlib.pyplot as plt\n\n# Define coordinates\npoints = {\n    \"A\": [3.0, 94.0],\n    \"C\": [139.0, 13.0],\n    \"D\": [46.0, 17.0],\n    \"E\": [191.0, 100.0],\n    \"F\": [52.0, 178.0],\n    \"G\": [94.0, 95.0],\n    \"H\": [142.0, 179.0]\n}\n\n# Define lines\nlines = [\n    (\"A\", \"D\"),\n    (\"A\", \"F\"),\n    (\"C\", \"E\"),\n    (\"D\", \"C\"),\n    (\"E\", \"H\"),\n    (\"F\", \"H\")\n]\n\n# Define the circle with center G and radius 6\ncircle_center = points[\"G\"]\ncircle_radius = 6.0\n\n# Create the plot\nfig, ax = plt.subplots()\n\n# Plot lines\nfor line in lines:\n    x_values = [points[line[0]][0], points[line[1]][0]]\n    y_values = [points[line[0]][1], points[line[1]][1]]\n    ax.plot(x_values, y_values, 'k-')  # 'k-' for black line\n\n# Plot circle\ncircle = plt.Circle(circle_center, circle_radius, color='k', fill=False)\nax.add_artist(circle)\n\n# Plot points and labels\nfor point, coord in points.items():\n    ax.plot(*coord, 'ko')  # 'ko' for black circle at point\n    ax.text(coord[0], coord[1], f' {point}', color='red', fontsize=20, va='center', ha='center')\n\n# Set plot limits\nmax_radius = max(2 * circle_radius, max(max(coord) for coord in points.values()))\nax.set_xlim(circle_center[0] - max_radius, circle_center[0] + max_radius)\nax.set_ylim(circle_center[1] - max_radius, circle_center[1] + max_radius)\n\n# Set aspect of plot\nax.set_aspect('equal')\n\n# Hide background\nax.set_axis_off()\n\nplt.show()\n"
+    },
+    {
+        "problem_text": "Consider a regular hexagon △ABCDEF, where the length of each side is 6 units. Given that all sides of the hexagon are equal by the definition of a regular polygon, calculate the area of the hexagon. Round your answer to the nearest tenth.",
+        "choices": [
+            "A: 83.1",
+            "B: 58.0",
+            "C: 31.2",
+            "D: 36.0"
+        ],
+        "answer": "A",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1540.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1540_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1540_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1540_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1540_Auxiliary_lines_negative3.png",
+        "code": "import matplotlib.pyplot as plt\n\n# Define the coordinates\npoints = {\"A\": [2.0, 181.0], \"B\": [180.0, 92.0], \"C\": [0.0, 1.0]}\n\n# Create the figure and axis\nfig, ax = plt.subplots()\nfig.set_size_inches(12, 12)\n\n# Plotting the lines\nax.plot([points[\"A\"][0], points[\"B\"][0]], [points[\"A\"][1], points[\"B\"][1]], 'k-')  # Line AB\nax.plot([points[\"A\"][0], points[\"C\"][0]], [points[\"A\"][1], points[\"C\"][1]], 'k-')  # Line AC\nax.plot([points[\"B\"][0], points[\"C\"][0]], [points[\"B\"][1], points[\"C\"][1]], 'k-')  # Line BC\n\n# Plotting the points\nfor point, coord in points.items():\n    ax.plot(coord[0], coord[1], 'ko')  # 'ko' for black circles\n    ax.text(coord[0] + 5, coord[1] + 5, point, fontsize=20, color='red')\n\n# Set aspect of the plot to be equal\nax.set_aspect('equal')\n\n# Hide axes\nax.axis('off')\n\n# Show the plot\nplt.show()\n"
+    },
+    {
+        "problem_text": "Quadrilateral ABCD has AB ∥ DC. Given that ∠ABC = 70°, ∠ADC = 50°, side BC = 10 units, and side AB = 30 units, determine the perimeter of ABCD.",
+        "choices": [
+          "A: 60",
+          "B: 70",
+          "C: 80",
+          "D: 90"
+        ],
+        "answer": "B",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/1_Auxiliary_lines_negative3.png",
+        "code": "None"
+      },
+      {
+        "problem_text": "In triangle ABC, point D lies on side BC such that AD ⟂ BC. Given that AB = 15 units, AC = 20 units, and ∠BAD = 30°, determine the area of triangle ABC.",
+        "choices": [
+          "A: 148",
+          "B: 160",
+          "C: 175",
+          "D: 180"
+        ],
+        "answer": "A",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/3.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/3_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/3_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/3_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/3_Auxiliary_lines_negative3.png",
+        "code": "None"
+      },
+      {
+        "problem_text": "Quadrilateral ABCD has AB ∥ DC, and its diagonal AC divides it into two triangles. If AC = 18 units, ∠BAC = 40°, ∠ACD = 35°, and side AB = 24 units, determine the area of quadrilateral ABCD.",
+        "choices": [
+          "A: 180",
+          "B: 200",
+          "C: 232",
+          "D: 240"
+        ],
+        "answer": "C",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/4.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/4_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/4_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/4_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/4_Auxiliary_lines_negative3.png",
+        "code": "None"
+      },
+      {
+        "problem_text": "In trapezoid ABCD with bases AB and DC, the midpoints of the legs AD and BC are connected by segment EF. If AB = 28 units, DC = 14 units, and the height is 10 units, determine the length of EF.",
+        "choices": [
+          "A: 14",
+          "B: 18",
+          "C: 21",
+          "D: 24"
+        ],
+        "answer": "C",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/5.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/5_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/5_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/5_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/5_Auxiliary_lines_negative3.png",
+        "code": "None"
+      },
+      {
+        "problem_text": "In triangle ABC, point D lies on side AC such that BD ⟂ AC. Given that AB = 13 units, BC = 15 units, and the altitude BD = 12 units, determine the length of segment AD.",
+        "choices": [
+          "A: 5",
+          "B: 7",
+          "C: 9",
+          "D: 11"
+        ],
+        "answer": "A",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/6.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/6_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/6_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/6_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/6_Auxiliary_lines_negative3.png",
+        "code": "None"
+      },
+      {
+        "problem_text": "In triangle ABC, point D is the foot of the perpendicular from C to side AB. Given that AC = 18 units, BC = 24 units, and ∠ACB = 60°, determine the length of CD.",
+        "choices": [
+          "A: 12",
+          "B: 15",
+          "C: 17",
+          "D: 20"
+        ],
+        "answer": "C",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/9.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/9_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/9_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/9_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/9_Auxiliary_lines_negative3.png",
+        "code": "None"
+      },
+      {
+        "problem_text": "In regular hexagon ABCDEF, if side AB = 8 units, determine the area of triangle ABD.",
+        "choices": [
+          "A: 32",
+          "B: 32√3",
+          "C: 40",
+          "D: 48"
+        ],
+        "answer": "B",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/10.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/10_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/10_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/10_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/10_Auxiliary_lines_negative3.png",
+        "code": "None"
+      },
+      {
+        "problem_text": "In quadrilateral ABCD, the lengths of sides AB and BC are 18 and 24 units, respectively, and angle ∠DCB is 60°. Using this information, determine the length of DC.",
+        "choices": [
+          "A: 32",
+          "B: 30",
+          "C: 40",
+          "D: 48"
+        ],
+        "answer": "B",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/2.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/2_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/2_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/2_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/2_Auxiliary_lines_negative3.png",
+        "code": "None"
+      },
+      {
+        "problem_text": "In trapezoid ABCD as shown (AB||CD),  AB=10units,  CD=6units,  AD=5units, and the height of the trapezoid (the perpendicular distance between  AB and CD) is  units. Determine the area of trapezoid ABCD.",
+        "choices": [
+          "A: 30",
+          "B: 16",
+          "C: 38",
+          "D: 32"
+        ],
+        "answer": "C",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/12.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/12_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/12_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/12_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/12_Auxiliary_lines_negative3.png",
+        "code": "None"
+      },
+      {
+        "problem_text": "In trapezoid ABCD (AB||CD), AB=15, CD=9 ,AD=4 , BC=6. Diagonals AC and BD intersect at point E , and red - colored auxiliary lines are drawn as shown. If the height of the trapezoid (the perpendicular distance between AB and CD) is 3 , find the area of ABE.",
+        "choices": [
+          "A: 30",
+          "B: 16",
+          "C: 14",
+          "D: 32"
+        ],
+        "answer": "C",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/13.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/13_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/13_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/13_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/13_Auxiliary_lines_negative3.png",
+        "code": "None"
+      },
+      {
+        "problem_text": "In parallelogram ABCD, point E lies on side CD. Draw segment AE. If AB = 20 units, BC = 12 units, and the angle between AE and AB is 25°, compute the area of parallelogram ABCD.",
+        "choices": [
+          "A: 130",
+          "B: 116",
+          "C: 101",
+          "D: 132"
+        ],
+        "answer": "C",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/31.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/31_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/31_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/31_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/31_Auxiliary_lines_negative3.png",
+        "code": "None"
+      },
+      {
+        "problem_text": "Right triangle ABC has a right angle at B. Let D be the midpoint of hypotenuse AC. If AB = 9 units and BC = 12 units, find the length of median BD.",
+        "choices": [
+          "A: 13",
+          "B: 16",
+          "C: 7.5",
+          "D: 5"
+        ],
+        "answer": "C",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/11.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/11_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/11_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/11_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/11_Auxiliary_lines_negative3.png",
+        "code": "None"
+      },
+      {
+        "problem_text": "In parallelogram ABCD, the diagonals intersect at E. If AB = 15 units and the perpendicular distance from E to side AD is 4 units, calculate the area of ABCD.",
+        "choices": [
+          "A: 60",
+          "B: 116",
+          "C: 11",
+          "D: 32"
+        ],
+        "answer": "A",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/15.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/15_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/15_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/15_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/15_Auxiliary_lines_negative3.png",
+        "code": "None"
+      },
+      {
+        "problem_text": "In triangle ABC, altitude AD is drawn to side BC. If BD = 5 units, DC = 7 units, and ∠BAD = 40°, find the length of altitude AD.",
+        "choices": [
+          "A: 5",
+          "B: 3.7",
+          "C: 10",
+          "D: 12"
+        ],
+        "answer": "B",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/16.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/16_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/16_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/16_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/16_Auxiliary_lines_negative3.png",
+        "code": "None"
+      },
+      {
+        "problem_text": "In quadrilateral ABCD, the diagonals AC and BD intersect at E. If triangles AEB and CED are similar with a similarity ratio of 1:2, and AB = 6 units, find the length of side CD. ",
+        "choices": [
+          "A: 13",
+          "B: 16",
+          "C: 11",
+          "D: 12"
+        ],
+        "answer": "D",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/19.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/19_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/19_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/19_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/19_Auxiliary_lines_negative3.png",
+        "code": "None"
+      },
+      {
+        "problem_text": "In triangle ABC, let D be the foot of the perpendicular from B to AC. If AB = 17 units, BC = 25 units, and ∠ABD = 30°, determine the length of segment AD.",
+        "choices": [
+          "A: 13",
+          "B: 16",
+          "C: 11",
+          "D: 15"
+        ],
+        "answer": "D",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/22.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/22_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/22_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/22_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/22_Auxiliary_lines_negative3.png",
+        "code": "None"
+      },
+      {
+        "problem_text": "In rectangle ABCD, let E be a point on diagonal AC such that AE : EC = 2 : 3. If the area of triangle ABE is 20 square units, compute the area of the rectangle.",
+        "choices": [
+          "A: 130",
+          "B: 160",
+          "C: 110",
+          "D: 100"
+        ],
+        "answer": "D",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/23.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/23_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/23_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/23_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/23_Auxiliary_lines_negative3.png",
+        "code": "None"
+      },
+      {
+        "problem_text": "In parallelogram ABCD, extend side AD beyond D to point E so that DE = AD. Given AB = 12 units, AD = 9 units, and the perpendicular distance from B to AD is 7 units, find the area of quadrilateral ABED. ",
+        "choices": [
+          "A: 63",
+          "B: 95",
+          "C: 85",
+          "D: 90"
+        ],
+        "answer": "B",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/24.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/24_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/24_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/24_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/24_Auxiliary_lines_negative3.png",
+        "code": "None"
+      },      
+      {
+        "problem_text": "Quadrilateral ABCD has AB ∥ DC and satisfies AD = BC. If AB = 30 units, BC = 18 units, and the angle between side BC and side CD is 35°, find the area of ABCD.",
+        "choices": [
+          "A: 318",
+          "B: 316",
+          "C: 311",
+          "D: 312"
+        ],
+        "answer": "D",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/26.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/26_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/26_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/26_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/26_Auxiliary_lines_negative3.png",
+        "code": "None"
+      },
+      {
+        "problem_text": "In triangle ABC, drop perpendiculars from C to the line AB. Let E be the foot of the perpendicular onto AB, and extend AB beyond A so that F is the foot of the perpendicular from C onto this extension. If AE = 8 units, EF = 6 units, and ∠ACE = 45°, determine the length of side AC. ",
+        "choices": [
+          "A: 16",
+          "B: 19",
+          "C: 11",
+          "D: 12"
+        ],
+        "answer": "A",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/27.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/27_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/27_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/27_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/27_Auxiliary_lines_negative3.png",
+        "code": "None"
+      },
+      {
+        "problem_text": "In triangle ABC, points D, E, and F lie on sides BC, AC, and AB respectively so that cevians AD, BE, and CF are concurrent. If the ratios are given by BD : DC = 2 : 3, CE : EA = 3 : 4, and AF : FB = 1 : 2, find the ratios of the areas of triangles AOB, BOC, and COA (where O is the point of concurrency).",
+        "choices": [
+          "A: 1:2: 8/3",
+          "B: 3:1: 2",
+          "C: 3:1:1/5",
+          "D: 1/2:1:5/4"
+        ],
+        "answer": "A",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/30.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/30_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/30_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/30_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/30_Auxiliary_lines_negative3.png",
+        "code": "None"
+      },
+      {
+        "problem_text": "Given quadrilateral ABCD, line segment AB is parallel to line segment CD, the degree of ∠ABC is 65°, the degree of ∠ADC is 50°, the length of BC is 9 units, and the length of AB is 18 units. Find the perimeter of quadrilateral ABCD. ",
+        "choices": [
+          "A: 61",
+          "B: 36",
+          "C: 78",
+          "D: 12"
+        ],
+        "answer": "A",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/40.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/40_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/40_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/40_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/40_Auxiliary_lines_negative3.png",
+        "code": "None"
+      },
+      {
+        "problem_text": "Consider the geometric figure ADBCN. It is known that the length of line segment AN is 6 units, the length of BD is 10 units, the length of BC is 13 units, and the length of CN is 14 units. It is known that line segment DB is perpendicular to line segment BC, line segment BC is perpendicular to line segment NC, and line segment AN is perpendicular to line segment NC. Using this information, find the area of figure ADBCN. Round your answer to the nearest tenth if necessary.",
+        "choices": [
+          "A: 161",
+          "B: 198",
+          "C: 178",
+          "D: 112"
+        ],
+        "answer": "B",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/41.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/41_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/41_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/41_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/41_Auxiliary_lines_negative3.png",
+        "code": "None"
+      },
+      {
+        "problem_text": "In regular pentagon ABCDE, the side length is 6 units. Draw diagonals AC and AD. Calculate the area of triangle ACD.",
+        "choices": [
+          "A: 45",
+          "B: 36",
+          "C: 78",
+          "D: 12"
+        ],
+        "answer": "A",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/42.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/42_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/42_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/42_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/42_Auxiliary_lines_negative3.png",
+        "code": "None"
+      },
+      {
+        "problem_text": "In regular hexagon ABCDEF, the side length is 8 units. Draw diagonals AC and BD. Using this information, calculate the area of quadrilateral ABCD.",
+        "choices": [
+          "A: 83",
+          "B: 36",
+          "C: 88",
+          "D: 112"
+        ],
+        "answer": "A",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/43.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/43_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/43_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/43_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/43_Auxiliary_lines_negative3.png",
+        "code": "None"
+      },
+      {
+        "problem_text": "Octagon ABCDEFGH, AB BC CD has sides of 6 units and angle ACD is 120 degrees. Calculate the area of ​​triangle ACD.",
+        "choices": [
+          "A: 10",
+          "B: 16",
+          "C: 18",
+          "D: 12"
+        ],
+        "answer": "B",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/45.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/45_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/45_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/45_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/45_Auxiliary_lines_negative3.png",
+        "code": "None"
+      },
+      {
+        "problem_text": "In regular pentagon ABCDE, the side length is 8 units. Draw diagonals AC and BD. Find the area of triangle ABD.",
+        "choices": [
+          "A: 49",
+          "B: 36",
+          "C: 78",
+          "D: 12"
+        ],
+        "answer": "A",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/46.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/46_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/46_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/46_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/46_Auxiliary_lines_negative3.png",
+        "code": "None"
+      },
+      {
+        "problem_text": "In circle O, the radius is 10 units, and chord AB is 16 units long. The distance from the center of the circle O to the midpoint P of AB is 6 units. Using this information, calculate the area of triangle OAP.",
+        "choices": [
+          "A: 11",
+          "B: 36",
+          "C: 28",
+          "D: 24"
+        ],
+        "answer": "D",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/47.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/47_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/47_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/47_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/47_Auxiliary_lines_negative3.png",
+        "code": "None"
+      },
+      {
+        "problem_text": "In rhombus ABCD, point E is on diagonal AC such that AE:EC = 2:3. If the area of triangle BED is 24 square units, find the area of the entire rhombus.",
+        "choices": [
+          "A: 61",
+          "B: 96",
+          "C: 78",
+          "D: 92"
+        ],
+        "answer": "B",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/48.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/48_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/48_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/48_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/48_Auxiliary_lines_negative3.png",
+        "code": "None"
+      },
+      {
+        "problem_text": "Two circles with centers O₁ and O₂ intersect at points A and B. If O₁O₂ = 10 units, and the radius of each circle is 6 units, find the length of chord AB.",
+        "choices": [
+          "A: 11",
+          "B: 16",
+          "C: 18",
+          "D: 10"
+        ],
+        "answer": "D",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/49.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/49_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/49_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/49_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/49_Auxiliary_lines_negative3.png",
+        "code": "None"
+      },
+      {
+        "problem_text": "Circle O has radius 10 units. Points A, B, and C lie on the circle such that AB = BC = 10 units. Find the area of triangle ABC.",
+        "choices": [
+          "A: 61",
+          "B: 36",
+          "C: 78",
+          "D: 43"
+        ],
+        "answer": "D",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/50.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/50_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/50_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/50_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/50_Auxiliary_lines_negative3.png",
+        "code": "None"
+      },
+      {
+        "problem_text": "Circle O has a radius of 10 units. Two parallel chords AB and CD are drawn such that AB = 12 units and CD = 16 units. Find the distance between these chords.",
+        "choices": [
+          "A: 11",
+          "B: 16",
+          "C: 14",
+          "D: 8"
+        ],
+        "answer": "C",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/51.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/51_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/51_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/51_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/51_Auxiliary_lines_negative3.png",
+        "code": "None"
+      },
+      {
+        "problem_text": "In rhombus ABCD, ∠BAD = 60°. Point E is the midpoint of side BC, and AE is drawn. If BC = 10 units, find the length of AE.",
+        "choices": [
+          "A: 6.1",
+          "B: 3.6",
+          "C: 8.7",
+          "D: 4.3"
+        ],
+        "answer": "C",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/52.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/52_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/52_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/52_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/52_Auxiliary_lines_negative3.png",
+        "code": "None"
+      },
+      {
+        "problem_text": " In rhombus ABCD, diagonal AC = 16 units and diagonal BD = 12 units. Point E is located on diagonal AC such that AE:EC = 3:1. Find the ratio of the area of triangle BED to the area of triangle CED.",
+        "choices": [
+          "A: 5:1",
+          "B: 3:2",
+          "C: 3:1",
+          "D: 4:3"
+        ],
+        "answer": "C",
+        "image": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/53.png",
+        "image_Auxiliary_lines": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/53_Auxiliary_lines.png",
+        "image_Auxiliary_lines_negative1": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/53_Auxiliary_lines_negative1.png",
+        "image_Auxiliary_lines_negative2": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/53_Auxiliary_lines_negative2.png",
+        "image_Auxiliary_lines_negative3": "/DATA/disk0/nby/xwl/decode_images/Math_Reasoning/VisualSketchpad/53_Auxiliary_lines_negative3.png",
+        "code": "None"
+      }
+      ]

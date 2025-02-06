@@ -1,0 +1,110 @@
+[
+    {
+        "image": [
+            "Single_Image_Perception_and_Understanding/MME_RealWorld/936486.png"
+        ],
+        "question": "图像中的遮阳篷三轮车在哪里？",
+        "answer": "C",
+        "category": "Single_Image_Perception_and_Understanding",
+        "choice": [
+            "（A） 左上角",
+            "（B） 左下角",
+            "（C） 右中心",
+            "（D） 右上角",
+            "（E） 图像中没有遮阳篷三轮车"
+        ],
+        "source": "MME_RealWorld",
+        "subcategory": "Perception/Monitoring",
+        "question_id": 1521
+    },
+    {
+        "image": [
+            "Single_Image_Perception_and_Understanding/MME_RealWorld/539205.png"
+        ],
+        "question": "图像中的人的外套是什么颜色？（如果一个人保持站立姿势或行走，请将其归类为行人，否则，将其归类为人。）",
+        "answer": "C",
+        "category": "Single_Image_Perception_and_Understanding",
+        "choice": [
+            "（A） 红色",
+            "（B） 白色",
+            "（C） 黑色",
+            "（D） 绿色",
+            "（E） 图像中没有人"
+        ],
+        "source": "MME_RealWorld",
+        "subcategory": "Perception/Monitoring",
+        "question_id": 798
+    },
+    {
+        "image": [
+            "Single_Image_Perception_and_Understanding/MME_RealWorld/297901.png"
+        ],
+        "question": "图片中心右侧楼房左边的闸门上方的红色招牌名称是什么？",
+        "answer": "B",
+        "category": "Single_Image_Perception_and_Understanding",
+        "choice": [
+            "（A） 南方地球物理公司",
+            "（B） 东方地球物理公司",
+            "（C） 西方地球物理公司",
+            "（D） 北方地球物理公司",
+            "（E） 图中没有提到相关的内容。"
+        ],
+        "source": "MME_RealWorld",
+        "subcategory": "Perception/OCR with Complex Context",
+        "question_id": 1679
+    },
+    {
+        "image": [
+            "Single_Image_Perception_and_Understanding/MME_RealWorld/895459.png"
+        ],
+        "question": "图片右侧的白色工程车上的第一个电话号码是多少？",
+        "answer": "B",
+        "category": "Single_Image_Perception_and_Understanding",
+        "choice": [
+            "（A） 020-32287988",
+            "（B） 020-32281988",
+            "（C） 020-32281938",
+            "（D） 020-82281988",
+            "（E） 图中没有相关数字。"
+        ],
+        "source": "MME_RealWorld",
+        "subcategory": "Perception/OCR with Complex Context",
+        "question_id": 1068
+    },
+    {
+        "image": [
+            "Single_Image_Perception_and_Understanding/MME_RealWorld/939126.png"
+        ],
+        "question": "图片中三轮车的朝向是哪里？",
+        "answer": "B",
+        "category": "Single_Image_Perception_and_Understanding",
+        "choice": [
+            "（A） 图像的右侧",
+            "（B） 图像的底部",
+            "（C） 图像的左侧",
+            "（D） 图像的顶部",
+            "（E） 图像中没有三轮车"
+        ],
+        "source": "MME_RealWorld",
+        "subcategory": "Perception/Monitoring",
+        "question_id": 1005
+    },
+    {
+        "image": [
+            "Single_Image_Perception_and_Understanding/MME_RealWorld/635579.png"
+        ],
+        "question": "合并资产负债表中2023年12月31日固定资产是多少?",
+        "answer": "A",
+        "category": "Single_Image_Perception_and_Understanding",
+        "choice": [
+            "（A） 320241161.93",
+            "（B） 21",
+            "（C） 65",
+            "（D） 丁福如",
+            "（E） 表中没有指出该值."
+        ],
+        "source": "MME_RealWorld",
+        "subcategory": "Perception/Diagram and Table",
+        "question_id": 61
+    }
+]

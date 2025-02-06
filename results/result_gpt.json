@@ -1,0 +1,38 @@
+[
+  {
+    "question_id": 1521,
+    "category": "Single_Image_Perception_and_Understanding",
+    "output": "E",
+    "model_id": "gpt"
+  },
+  {
+    "question_id": 798,
+    "category": "Single_Image_Perception_and_Understanding",
+    "output": "E",
+    "model_id": "gpt"
+  },
+  {
+    "question_id": 1679,
+    "category": "Single_Image_Perception_and_Understanding",
+    "output": "B",
+    "model_id": "gpt"
+  },
+  {
+    "question_id": 1068,
+    "category": "Single_Image_Perception_and_Understanding",
+    "output": "B",
+    "model_id": "gpt"
+  },
+  {
+    "question_id": 1005,
+    "category": "Single_Image_Perception_and_Understanding",
+    "output": "C",
+    "model_id": "gpt"
+  },
+  {
+    "question_id": 61,
+    "category": "Single_Image_Perception_and_Understanding",
+    "output": "A",
+    "model_id": "gpt"
+  }
+]
